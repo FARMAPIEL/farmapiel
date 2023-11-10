@@ -1,0 +1,93 @@
+{
+  "flex-layout.row#home-seccion7": {
+    "children": [
+
+      "flex-layout.col#home-seccion7"
+    ],
+    "props": {
+      "colSizing": "equal",
+      "blockClass": "home-seccion7"
+    }
+  },
+  "flex-layout.col#home-seccion7": {
+    "children": [
+      "rich-text#home-seccion7",
+      "flex-layout.row#home-seccion7-imagenes"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "home-seccion5"
+    }
+  },
+  "rich-text#home-seccion7": {
+    "props": {
+      "text": "Compártenos tu experiencia",
+      "textPosition": "CENTER",
+      "blockClass": "home-seccion7"
+    }
+  },
+  "flex-layout.row#home-seccion7-imagenes": {
+    "children": [
+      "image#home-seccion7-1",
+      "image#home-seccion7-2",
+      "image#home-seccion7-3",
+      "image#home-seccion7-4",
+      "image#home-seccion7-5"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "home-seccion7-imagenes"
+    }
+  },
+  "image#home-seccion7-1": {
+    "props": {
+      "src": "/arquivos/tt_2.png",
+      "blockClass": "home-seccion7-img",
+      "link": {
+        "openNewTab": true,
+        "url": "https://www.tiktok.com/@farmapiel/video/7151525123613363462"
+      }
+    }
+  },
+  "image#home-seccion7-2": {
+    "props": {
+      "src": "/arquivos/tt_3.png",
+      "blockClass": "home-seccion7-img",
+      "link": {
+        "openNewTab": true,
+        "url": "/"
+      }
+    }
+  },
+  "image#home-seccion7-3": {
+    "props": {
+      "src": "/arquivos/tt_4.png",
+      "blockClass": "home-seccion7-img",
+      "link": {
+        "openNewTab": true,
+        "url": "https://www.tiktok.com/@farmapiel/video/7141582673994206470"
+      }
+    }
+  },
+  "image#home-seccion7-4": {
+    "props": {
+      "src": "/arquivos/tt_2.png",
+      "blockClass": "home-seccion7-img",
+      "link": {
+        "openNewTab": true,
+        "url": "https://www.tiktok.com/@farmapiel/video/7141582673994206470"
+      }
+    }
+  },
+  "image#home-seccion7-5": {
+    "props": {
+      "src": "/arquivos/tt_3.png",
+      "blockClass": "home-seccion7-img",
+      "link": {
+        "openNewTab": true,
+        "url": "https://www.tiktok.com/@farmapiel/video/7141582673994206470"
+      }
+    }
+  }
+}

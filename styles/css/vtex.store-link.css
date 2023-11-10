@@ -1,0 +1,173 @@
+.childrenContainer--menu-c {
+  display: flex;
+  gap: 16px;
+  margin: 5px 20px;
+  align-items: center;
+}
+
+.childrenContainer--menu-c :global(.vtex-rich-text-0-x-paragraph--home-seccion2-item) {
+  margin: 0;
+  font-family: DM Sans;
+  font-size: 14px;
+}
+.link--menu-c {
+  text-decoration: none;
+
+}
+
+:global(.vtex-numeric-stepper__plus-button-container) :global(.vtex-numeric-stepper__plus-button),
+:global(.vtex-numeric-stepper__minus-button-container) :global(.vtex-numeric-stepper__minus-button) {
+  border-radius: 160px;
+  height: 48px;
+  border-color: #3A3A3A;
+}
+
+:global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__input) {
+  border-left: none;
+  border-right: none;
+  height: 48px;
+  width: 48px;
+  border-color:  #3A3A3A;
+  font-size: 1.2rem;
+}
+
+:global(.vtex-numeric-stepper__minus-button__text),
+:global(.vtex-numeric-stepper__plus-button__text) {
+  color:#3A3A3A;
+  font-size: 1.2rem;
+}
+
+.link--pe-s3,
+.link--pe-s2 {
+  text-decoration: none;
+  padding: 16px 48px;
+  border-radius: 24px;
+    background:  #7199A0;
+    display: block;
+    width: fit-content;
+    margin-top: 32px;
+}
+
+.label--pe-s3,
+.label--pe-s2 {
+  color:  #FFF;
+    text-align: center;
+    font-family: 'Lora';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+.link--pe-p {
+  text-decoration: none;
+  margin-top: 32px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.link--pe-p::after{
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><mask id="mask0_261_1500" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24"><rect width="24" height="24" fill="%23D9D9D9"/></mask><g mask="url(%23mask0_261_1500)"><path d="M16.15 13H5C4.71667 13 4.47917 12.9042 4.2875 12.7125C4.09583 12.5208 4 12.2833 4 12C4 11.7167 4.09583 11.4792 4.2875 11.2875C4.47917 11.0958 4.71667 11 5 11H16.15L13.3 8.15001C13.1 7.95001 13.0042 7.71668 13.0125 7.45001C13.0208 7.18335 13.1167 6.95001 13.3 6.75001C13.5 6.55001 13.7375 6.44585 14.0125 6.43751C14.2875 6.42918 14.525 6.52501 14.725 6.72501L19.3 11.3C19.4 11.4 19.4708 11.5083 19.5125 11.625C19.5542 11.7417 19.575 11.8667 19.575 12C19.575 12.1333 19.5542 12.2583 19.5125 12.375C19.4708 12.4917 19.4 12.6 19.3 12.7L14.725 17.275C14.525 17.475 14.2875 17.5708 14.0125 17.5625C13.7375 17.5542 13.5 17.45 13.3 17.25C13.1167 17.05 13.0208 16.8167 13.0125 16.55C13.0042 16.2833 13.1 16.05 13.3 15.85L16.15 13Z" fill="%237199A0"/></g></svg>');
+}
+
+.link--pe-p:hover {
+  text-decoration: underline;
+}
+.label--pe-p {
+
+  color: #7199A0;
+    text-align: center;
+    font-family: 'Lora';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 133.333% */
+}
+
+
+
+.link--home-seccion2-item {
+  text-decoration: none;
+}
+
+.link--home-seccion2-item:hover {
+  text-decoration: underline;
+}
+
+.label--home-seccion1,
+.label--home-seccion4-p,
+.label--home-seccion5,
+.label--home-seccion6 {
+  color:#FFF;
+    text-align: center;
+    font-family: 'Lora';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.link--home-seccion1,
+.link--home-seccion4-p,
+.link--home-seccion5,
+.link--home-seccion6 {
+  text-decoration: none;
+  padding: 16px 48px;
+  border-radius: 24px;
+  background: #7199A0;
+  display: inline-block;
+}
+
+.link--home-seccion4-p {
+  margin: 0 auto;
+  display: block;
+    width: fit-content;
+}
+
+@media screen and (max-width: 640px) {
+
+  .link--pe-p {
+
+      margin: 0 auto;
+      display: flex;
+      width: fit-content;
+    margin-top: 24px;
+  }
+
+  .link--pe-s3,
+  .link--pe-s2 {
+    margin-top: 24px;
+    margin: 0 auto;
+  }
+
+  .link--home-seccion1,
+  .link--home-seccion4-p,
+  .link--home-seccion5,
+  .link--home-seccion6 {
+      margin: 0 auto;
+      display: block;
+        width: fit-content;
+    }
+
+  .childrenContainer--menu-c {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .childrenContainer--menu-c :global(.vtex-rich-text-0-x-paragraph--home-seccion2-item) {
+    margin: 0;
+    font-family: DM Sans;
+    font-size: 14px;
+  }
+  .link--menu-c {
+    text-decoration: none;
+  }
+}
+

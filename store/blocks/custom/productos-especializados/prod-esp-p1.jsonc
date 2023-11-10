@@ -1,0 +1,63 @@
+{
+  "flex-layout.row#prod-esp-p1": {
+    "children": [
+      "flex-layout.col#prod-esp-p1",
+      "image#pe-p1"
+
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "prod-esp-p-left"
+    }
+  },
+  "flex-layout.col#prod-esp-p1": {
+    "children": [
+      "rich-text#pe-p1-titulo",
+      "rich-text#pe-p1-texto1",
+      "rich-text#pe-p1-texto2",
+      "rich-text#pe-p1-texto3",
+      "link#pe-p1"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "prod-esp-p"
+    }
+  },
+  "rich-text#pe-p1-titulo": {
+    "props": {
+      "text": "Vastionin**Vastionin**",
+      "blockClass": "pe-p-titulo"
+    }
+  },
+  "rich-text#pe-p1-texto1": {
+    "props": {
+      "text": "Principio activo: Isotretinoina",
+      "blockClass": "pe-p-texto1"
+    }
+  },
+  "rich-text#pe-p1-texto2": {
+    "props": {
+      "text": "Presentación: 10mg de 30 cápsulas",
+      "blockClass": "pe-p-texto2"
+    }
+  },
+  "rich-text#pe-p1-texto3": {
+    "props": {
+      "text": "Presentación: 20mg de 30 cápsulas",
+      "blockClass": "pe-p-texto3"
+    }
+  },
+  "link#pe-p1": {
+    "props": {
+      "href": "http://www.skinpartners.com.mx/",
+      "label": "Recibe más información",
+      "blockClass": "pe-p"
+    }
+  },
+  "image#pe-p1": {
+    "props": {
+      "src": "/arquivos/pe-p1.png",
+      "blockClass": "pe-p"
+    }
+  }
+}

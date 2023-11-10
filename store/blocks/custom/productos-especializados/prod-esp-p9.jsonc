@@ -1,0 +1,63 @@
+{
+    "flex-layout.row#prod-esp-p9": {
+      "children": [
+        "flex-layout.col#prod-esp-p9",
+        "image#pe-p9"
+  
+      ],
+      "props": {
+        "colSizing": "auto",
+        "blockClass": "prod-esp-p-left"
+      }
+    },
+    "flex-layout.col#prod-esp-p9": {
+      "children": [
+        "rich-text#pe-p9-titulo",
+        "rich-text#pe-p9-texto1",
+        "rich-text#pe-p9-texto2",
+        "rich-text#pe-p9-texto3",
+        "link#pe-p9"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "prod-esp-p"
+      }
+    },
+    "rich-text#pe-p9-titulo": {
+      "props": {
+        "text": "Debrisan**Debrisan**",
+        "blockClass": "pe-p-titulo"
+      }
+    },
+    "rich-text#pe-p9-texto1": {
+      "props": {
+        "text": "Principio activo: Dextranómero",
+        "blockClass": "pe-p-texto1"
+      }
+    },
+    "rich-text#pe-p9-texto2": {
+      "props": {
+        "text": "Presentación: Envase con 25g",
+        "blockClass": "pe-p-texto2"
+      }
+    },
+    "rich-text#pe-p9-texto3": {
+      "props": {
+        "text": "Presentación: Envase con 60g",
+        "blockClass": "pe-p-texto3"
+      }
+    },
+    "link#pe-p9": {
+      "props": {
+        "href": "http://www.skinpartners.com.mx/",
+        "label": "Recibe más información",
+        "blockClass": "pe-p"
+      }
+    },
+    "image#pe-p9": {
+      "props": {
+        "src": "/arquivos/pe-p9.png",
+        "blockClass": "pe-p"
+      }
+    }
+  }

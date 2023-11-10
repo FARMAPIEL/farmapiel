@@ -1,0 +1,349 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "header-menu"
+    },
+    "children": [
+      //"menu-item#header-inicio",
+      "menu-item#header-categorias",
+      "menu-item#header-productos",
+      "menu-item#header-acerca"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#category-apparel": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+     /* "menu-item#fotoproteccion",
+      "menu-item#antioxidante",
+      "menu-item#antiedad",
+      "menu-item#antitranspirante",
+      "menu-item#anticaida",
+      "menu-item#despigmentante",
+      "menu-item#cicatrizante",
+      "menu-item#antiacne",
+      "menu-item#humectante",
+      "menu-item#recuperacion-de-piel"*/
+      "flex-layout.row#menuscolumnas"
+      
+    ]
+  },
+   "flex-layout.row#menuscolumnas": {
+    "children": [
+      "flex-layout.col#columna1",
+      "flex-layout.col#columna2",
+      "flex-layout.col#columna3"
+    ]
+  },
+  "flex-layout.col#columna1": {
+    "children": [
+      "link#menu-c1",
+      "link#menu-c2",
+      "link#menu-c3"
+    ],
+    "props": {
+      "verticalAlign":"middle",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#columna2": {
+    "children": [
+      "link#menu-c4",
+      "link#menu-c5",
+      "link#menu-c6"
+    ],
+    "props": {
+      "verticalAlign":"middle",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#columna3": {
+    "children": [
+      
+      "link#menu-c7",
+      "link#menu-c8",
+      "link#menu-c9"
+     /*, "link#menu-c10"*/
+    ],
+    "props": {
+      "verticalAlign":"middle",
+      "preventVerticalStretch": true
+    }
+  },
+  "menu-item#fotoproteccion": {
+    "props": {
+      "id": "menu-item-fotoproteccion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fotoprotector",
+        "noFollow": false,
+        "tagTitle": "Fotoprotector",
+        "text": "Fotoprotector"
+      }
+    }
+  },
+  "menu-item#antioxidante": {
+    "props": {
+      "id": "menu-item-antioxidante",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/antioxidante",
+        "noFollow": false,
+        "tagTitle": "Antioxidante",
+        "text": "Antioxidante"
+      }
+    }
+  },
+  "menu-item#antiedad": {
+    "props": {
+      "id": "menu-item-antiedad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/antiedad",
+        "noFollow": false,
+        "tagTitle": "Antiedad",
+        "text": "Antiedad"
+      }
+    }
+  },
+  "menu-item#antitranspirante": {
+    "props": {
+      "id": "menu-item-antitranspirante",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/antitranspirante",
+        "noFollow": false,
+        "tagTitle": "Antitranspirante",
+        "text": "Antitranspirante"
+      }
+    }
+  },
+  "menu-item#anticaida": {
+    "props": {
+      "id": "menu-item-anticaida",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/anticaida",
+        "noFollow": false,
+        "tagTitle": "Anticaida",
+        "text": "Anticaida"
+      }
+    }
+  },
+  "menu-item#despigmentante": {
+    "props": {
+      "id": "menu-item-despigmentante",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despigmentante",
+        "noFollow": false,
+        "tagTitle": "Despigmentante",
+        "text": "Despigmentante"
+      }
+    }
+  },
+  "menu-item#cicatrizante": {
+    "props": {
+      "id": "menu-item-cicatrizante",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cicatrizante",
+        "noFollow": false,
+        "tagTitle": "Cicatrizante",
+        "text": "Cicatrizante"
+      }
+    }
+  },
+  "menu-item#antiacne": {
+    "props": {
+      "id": "menu-item-antiacne",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/antiacne",
+        "noFollow": false,
+        "tagTitle": "Antiacné",
+        "text": "Antiacné"
+      }
+    }
+  },
+  "menu-item#humectante": {
+    "props": {
+      "id": "menu-item-humectante",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/humectante",
+        "noFollow": false,
+        "tagTitle": "Humectante",
+        "text": "Humectante"
+      }
+    }
+  },
+  "menu-item#recuperacion-de-piel": {
+    "props": {
+      "id": "menu-item-recuperacion-de-piel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/recuperacion-de-piel",
+        "noFollow": false,
+        "tagTitle": "Recuperación de piel",
+        "text": "Recuperación de piel"
+      }
+    }
+  },
+
+
+
+
+  "menu-item#category-home": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Home & Decor",
+        "text": "Home & Decor"
+      }
+    }
+  },
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "More"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-1",
+      "flex-layout.col#menu-more-2"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "flex-layout.col#menu-more-2": {
+    "children": [
+      "info-card#home"
+    ]
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#faq"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  }
+}

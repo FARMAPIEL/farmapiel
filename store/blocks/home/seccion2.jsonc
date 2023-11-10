@@ -1,0 +1,279 @@
+{
+  "flex-layout.row#home-seccion2": {
+    "children": [
+      "link#home-seccion2-1",
+      "link#home-seccion2-2",
+      "link#home-seccion2-3",
+      "link#home-seccion2-4",
+      "link#home-seccion2-5",
+      "link#home-seccion2-6"
+      // "link#home-seccion2-7"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "home-seccion2"
+    }
+  },
+
+
+  "link#home-seccion2-1": {
+    "props": {
+      "href": "/",
+      "blockClass": "home-seccion2-item"
+    },
+    "children": [
+      "image#home-seccion2-1",
+      "rich-text#home-seccion2-1"
+    ]
+  },
+  "link#home-seccion2-2": {
+    "props": {
+      "href": "/",
+      "blockClass": "home-seccion2-item"
+    },
+    "children": [
+      "image#home-seccion2-2",
+      "rich-text#home-seccion2-2"
+    ]
+  },
+  "link#home-seccion2-3": {
+    "props": {
+      "href": "/",
+      "blockClass": "home-seccion2-item"
+    },
+    "children": [
+      "image#home-seccion2-3",
+      "rich-text#home-seccion2-3"
+    ]
+  },
+  "link#home-seccion2-4": {
+    "props": {
+      "href": "/",
+      "blockClass": "home-seccion2-item"
+    },
+    "children": [
+      "image#home-seccion2-4",
+      "rich-text#home-seccion2-4"
+    ]
+  },
+  "link#home-seccion2-5": {
+    "props": {
+      "href": "/",
+      "blockClass": "home-seccion2-item"
+    },
+    "children": [
+      "image#home-seccion2-5",
+      "rich-text#home-seccion2-5"
+    ]
+  },
+  "link#home-seccion2-6": {
+    "props": {
+      "href": "/",
+      "blockClass": "home-seccion2-item"
+    },
+    "children": [
+      "image#home-seccion2-6",
+      "rich-text#home-seccion2-6"
+    ]
+  },
+  "link#home-seccion2-7": {
+    "props": {
+      "href": "/",
+      "blockClass": "home-seccion2-item"
+    },
+    "children": [
+      "image#home-seccion2-7",
+      "rich-text#home-seccion2-7"
+    ]
+  },
+  "link#home-seccion2-8": {
+    "props": {
+      "href": "/",
+      "blockClass": "home-seccion2-item"
+    },
+    "children": [
+      "image#home-seccion2-8",
+      "rich-text#home-seccion2-8"
+    ]
+  },
+  "link#home-seccion2-9": {
+    "props": {
+      "href": "/",
+      "blockClass": "home-seccion2-item"
+    },
+    "children": [
+      "image#home-seccion2-9",
+      "rich-text#home-seccion2-9"
+    ]
+  },
+  "link#home-seccion2-10": {
+    "props": {
+      "href": "/",
+      "blockClass": "home-seccion2-item"
+    },
+    "children": [
+      "image#home-seccion2-10",
+      "rich-text#home-seccion2-10"
+    ]
+  },
+  "rich-text#home-seccion2-1": {
+    "props": {
+      "text": "Fotoprotector",
+      "blockClass": "home-seccion2-item"
+    }
+  },
+  "rich-text#home-seccion2-2": {
+    "props": {
+      "text": "Antioxidante",
+      "blockClass": "home-seccion2-item"
+    }
+  },
+  "rich-text#home-seccion2-3": {
+    "props": {
+      "text": "Antiedad",
+      "blockClass": "home-seccion2-item"
+    }
+  },
+  "rich-text#home-seccion2-4": {
+    "props": {
+      "text": "Antitranspirante",
+      "blockClass": "home-seccion2-item"
+    }
+  },
+  "rich-text#home-seccion2-5": {
+    "props": {
+      "text": "Anticaída",
+      "blockClass": "home-seccion2-item"
+    }
+  },
+  "rich-text#home-seccion2-6": {
+    "props": {
+      "text": "Despigmentante",
+      "blockClass": "home-seccion2-item"
+    }
+  },
+  "rich-text#home-seccion2-7": {
+    "props": {
+      "text": "Cicatrizante",
+      "blockClass": "home-seccion2-item"
+    }
+  },
+  "rich-text#home-seccion2-8": {
+    "props": {
+      "text": "Antiacné",
+      "blockClass": "home-seccion2-item"
+    }
+  },
+  "rich-text#home-seccion2-9": {
+    "props": {
+      "text": "Humectante",
+      "blockClass": "home-seccion2-item"
+    }
+  },
+  "rich-text#home-seccion2-10": {
+    "props": {
+      "text": "Recuperación de piel",
+      "blockClass": "home-seccion2-item"
+    }
+  },
+  "image#home-seccion2-1": {
+    "props": {
+      "src": "/arquivos/s2_1.png",
+      "blockClass" : "home-seccion2-img",
+      "link": {
+        "openNewTab": false,
+        "url": "/fotoproteccion"
+      }
+    }
+  },
+  "image#home-seccion2-2": {
+    "props": {
+      "src": "/arquivos/s2_2.png",
+      "blockClass" : "home-seccion2-img",
+      "link": {
+        "openNewTab": false,
+        "url": "/antioxidante"
+      }
+    }
+  },
+  "image#home-seccion2-3": {
+    "props": {
+      "src": "/arquivos/s2_3.png",
+      "blockClass" : "home-seccion2-img",
+      "link": {
+        "openNewTab": false,
+        "url": "/antiedad"
+      }
+    }
+  },
+  "image#home-seccion2-4": {
+    "props": {
+      "src": "/arquivos/s2_4.png",
+      "blockClass" : "home-seccion2-img",
+      "link": {
+        "openNewTab": false,
+        "url": "/antitranspirante"
+      }
+    }
+  },
+  "image#home-seccion2-5": {
+    "props": {
+      "src": "/arquivos/s2_5.png",
+      "blockClass" : "home-seccion2-img",
+      "link": {
+        "openNewTab": false,
+        "url": "/anticaida"
+      }
+    }
+  },
+  "image#home-seccion2-6": {
+    "props": {
+      "src": "/arquivos/s2_6.png",
+      "blockClass" : "home-seccion2-img",
+      "link": {
+        "openNewTab": false,
+        "url": "/despigmentante"
+      }
+    }
+  },
+  "image#home-seccion2-7": {
+    "props": {
+      "src": "/arquivos/s2_3.png",
+      "blockClass" : "home-seccion2-img",
+      "link": {
+        "openNewTab": false,
+        "url": "/cicatrizante"
+      }
+    }
+  },
+  "image#home-seccion2-8": {
+    "props": {
+      "src": "/arquivos/s2_4.png",
+      "blockClass" : "home-seccion2-img",
+      "link": {
+        "openNewTab": false,
+        "url": "/antiacne"
+      }
+    }
+  },
+  "image#home-seccion2-9": {
+    "props": {
+      "src": "/arquivos/s2_5.png",
+      "blockClass" : "home-seccion2-img",
+      "link": {
+        "openNewTab": false,
+        "url": "/humectante"
+      }
+    }
+  },
+  "image#home-seccion2-10": {
+    "props": {
+      "src": "/arquivos/s2_6.png",
+      "blockClass" : "home-seccion2-img",
+      "link": {
+        "openNewTab": false,
+        "url": "/recuperacion-de-piel"
+      }
+    }
+  }
+}

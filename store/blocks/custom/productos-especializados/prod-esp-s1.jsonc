@@ -1,0 +1,42 @@
+{
+  "flex-layout.row#prod-esp-s1": {
+    "children": [
+      "flex-layout.col#prod-esp-s1",
+      "image#pe-s1"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "prod-esp-s1"
+    }
+  },
+  "flex-layout.col#prod-esp-s1": {
+    "children": [
+      "rich-text#pe-s1-titulo",
+      "rich-text#pe-s1-subtitulo"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "prod-esp-s1"
+    }
+  },
+  "rich-text#pe-s1-titulo": {
+    "props": {
+      "text": "¡Bienvenido a SKIN PARTNERS!",
+      "textPosition": "CENTER",
+      "blockClass": "pe-s1-titulo"
+    }
+  },
+  "rich-text#pe-s1-subtitulo": {
+    "props": {
+      "text": "SKIN PARTNERS es tu plataforma exclusiva diseñada para profesionales de la salud como tú, que buscan información precisa y actualizada sobre medicamentos. FARMAPIEL te brinda acceso a un extenso catálogo de recursos especializados y detalles sobre tratamientos dermatológicos, capacitaciones y medicamentos de nuestro laboratorio.",
+      "textPosition": "CENTER",
+      "blockClass": "pe-s1-subtitulo"
+    }
+  },
+  "image#pe-s1": {
+    "props": {
+      "src": "/arquivos/pe-s1.png",
+      "blockClass": "pe-s1"
+    }
+  }
+}

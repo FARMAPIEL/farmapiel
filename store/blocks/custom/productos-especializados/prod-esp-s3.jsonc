@@ -1,0 +1,35 @@
+{
+  "flex-layout.row#prod-esp-s3":{
+    "children": [
+      "flex-layout.col#prod-esp-s3"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "pe-s3"
+    }
+  },
+
+  "flex-layout.col#prod-esp-s3": {
+    "children": [
+      "rich-text#prod-esp-s3-descripcion",
+      "link#prod-esp-s3"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "pe-s3"
+    }
+  },
+  "rich-text#prod-esp-s3-descripcion": {
+    "props": {
+      "text": "En skinpartners buscamos ser tus mejores aliados a través de la capacitación continua y la información necesaria sobre nuestros productos para mejorar la vida de tus pacientes.",
+      "blockClass": "pe-s3-descripcion"
+    }
+  },
+  "link#prod-esp-s3": {
+    "props": {
+      "href": "http://www.skinpartners.com.mx/",
+      "label": "Unirme ahora",
+      "blockClass": "pe-s3"
+    }
+  }
+}

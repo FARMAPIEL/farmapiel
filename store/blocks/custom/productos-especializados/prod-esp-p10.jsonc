@@ -1,0 +1,63 @@
+{
+    "flex-layout.row#prod-esp-p10": {
+      "children": [
+        "image#pe-p10",
+        "flex-layout.col#prod-esp-p10"
+      ],
+      "props": {
+        "colSizing": "auto",
+        "blockClass": "prod-esp-p-right"
+      }
+    },
+    "flex-layout.col#prod-esp-p10": {
+      "children": [
+        "rich-text#pe-p10-titulo",
+        "rich-text#pe-p10-texto1",
+        "rich-text#pe-p10-texto2",
+        "rich-text#pe-p10-texto3",
+        "link#pe-p10"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "prod-esp-p"
+      }
+    },
+    "rich-text#pe-p10-titulo": {
+      "props": {
+        "text": "Lasmaskin**Lasmaskin**",
+        "blockClass": "pe-p-titulo"
+      }
+    },
+    "rich-text#pe-p10-texto1": {
+      "props": {
+        "text": "Principio activo: Hidroquinona",
+        "blockClass": "pe-p-texto1"
+      }
+    },
+    "rich-text#pe-p10-texto2": {
+      "props": {
+        "text": "Presentación: 2% frasco con 30g",
+        "blockClass": "pe-p-texto2"
+      }
+    },
+    "rich-text#pe-p10-texto3": {
+      "props": {
+        "text": "Presentación: 4% frasco con 30g",
+        "blockClass": "pe-p-texto3"
+      }
+    },
+    "link#pe-p10": {
+      "props": {
+        "href": "http://www.skinpartners.com.mx/",
+        "label": "Recibe más información",
+        "blockClass": "pe-p"
+      }
+    },
+    "image#pe-p10": {
+      "props": {
+        "src": "/arquivos/pe-p10.png",
+        "blockClass": "pe-p"
+      }
+    }
+  }
+  

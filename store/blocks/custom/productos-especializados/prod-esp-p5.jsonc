@@ -1,0 +1,64 @@
+{
+    "flex-layout.row#prod-esp-p5": {
+      "children": [
+        "flex-layout.col#prod-esp-p5",
+        "image#pe-p5"
+  
+      ],
+      "props": {
+        "colSizing": "auto",
+        "blockClass": "prod-esp-p-left"
+      }
+    },
+    "flex-layout.col#prod-esp-p5": {
+      "children": [
+        "rich-text#pe-p5-titulo",
+        "rich-text#pe-p5-texto1",
+        "rich-text#pe-p5-texto2",
+        "rich-text#pe-p5-texto3",
+        "link#pe-p5"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "prod-esp-p"
+      }
+    },
+    "rich-text#pe-p5-titulo": {
+      "props": {
+        "text": "BPOllen Duo**BPOllen Duo**",
+        "blockClass": "pe-p-titulo"
+      }
+    },
+    "rich-text#pe-p5-texto1": {
+      "props": {
+        "text": "Principio activo: Clindamicina 1% / Peróxido de Benzoílo 5%",
+        "blockClass": "pe-p-texto1"
+      }
+    },
+    "rich-text#pe-p5-texto2": {
+      "props": {
+        "text": "Presentación: Envase con 30g",
+        "blockClass": "pe-p-texto2"
+      }
+    },
+    "rich-text#pe-p5-texto3": {
+      "props": {
+        "text": "Presentación: Caja con 15 sobres duales",
+        "blockClass": "pe-p-texto3"
+      }
+    },
+    "link#pe-p5": {
+      "props": {
+        "href": "http://www.skinpartners.com.mx/",
+        "label": "Recibe más información",
+        "blockClass": "pe-p"
+      }
+    },
+    "image#pe-p5": {
+      "props": {
+        "src": "/arquivos/pe-p5.png",
+        "blockClass": "pe-p"
+      }
+    }
+  }
+  

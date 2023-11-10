@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#about-us-s3": {
+      "children": [
+        "rich-text#about-us-s3-titulo"
+      ],
+      "props": {
+        "horizontalAlign":"center",
+        "preventHorizontalStretch":false,
+        "blockClass": "about-us-s3-titulo"
+      }
+    },
+    "rich-text#about-us-s3-titulo": {
+      "props": {
+        "text": "FARMAPIEL es un laboratorio reconocido por médicos dermatólogos y especialistas de la piel por la calidad, innovación y expertisse que aporta a sus productos.",
+        "textPosition": "CENTER",
+        "blockClass": "about-us-s3-titulo"
+      }
+    }
+}

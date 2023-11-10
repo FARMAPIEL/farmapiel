@@ -1,0 +1,51 @@
+{
+  "flex-layout.row#prod-esp-s2": {
+    "children": [
+      "image#pe-s2",
+      "flex-layout.col#prod-esp-s2"
+
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "prod-esp-s2"
+    }
+  },
+  "flex-layout.col#prod-esp-s2": {
+    "children": [
+      "rich-text#pe-s2-titulo",
+      "rich-text#pe-s2-subtitulo",
+      "link#pe-s2"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "prod-esp-s2"
+    }
+  },
+  "rich-text#pe-s2-titulo": {
+    "props": {
+      "text": "Regístrate como profesional de la salud,",
+      "textPosition": "CENTER",
+      "blockClass": "pe-s2-titulo"
+    }
+  },
+  "rich-text#pe-s2-subtitulo": {
+    "props": {
+      "text": "Aquí podrás explorar a fondo la información que necesitas para tomar decisiones informadas sobre el cuidado de tus pacientes. Con SKIN PARTNERS, estarás siempre un paso adelante en el campo de la dermatología.\n\n¡Únete hoy y descubre el conocimiento que puede marcar la diferencia en tu práctica médica!",
+      "textPosition": "CENTER",
+      "blockClass": "pe-s2-subtitulo"
+    }
+  },
+  "link#pe-s2": {
+    "props": {
+      "href": "http://www.skinpartners.com.mx/",
+      "label": "Unirme ahora",
+      "blockClass": "pe-s2"
+    }
+  },
+  "image#pe-s2": {
+    "props": {
+      "src": "/arquivos/pe-s2.png",
+      "blockClass": "pe-s2"
+    }
+  }
+}

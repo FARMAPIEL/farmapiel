@@ -1,0 +1,78 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "rich-text#about-us-titulo",
+      "rich-text#about-us-subtitulo",
+      "flex-layout.row#about-us",
+      "flex-layout.row#about-us-s2",
+      "flex-layout.row#about-us-s3",
+      "flex-layout.row#about-us-s4",
+      "flex-layout.row#about-us-s5",
+      "flex-layout.row#about-us-s6"
+    ]
+  },
+
+  "rich-text#about-us-titulo": {
+    "props": {
+      "text": "Acerca de nosotros",
+      "textPosition": "CENTER",
+      "blockClass": "about-us-titulo"
+    }
+  },
+  "rich-text#about-us-subtitulo": {
+    "props": {
+      "text": "FARMAPIEL Potencia el autocuidado de tu piel.",
+      "textPosition": "CENTER",
+      "blockClass": "about-us-subtitulo"
+    }
+  },
+
+  "flex-layout.row#about-us": {
+    "children": [
+      "flex-layout.col#about-us"
+    ],
+    "props": {
+      "blockClass": "about-us"
+    }
+  },
+  "flex-layout.col#about-us": {
+    "children": [
+      "responsive-layout.desktop#about-img",
+      "responsive-layout.tablet#about-img",
+      "responsive-layout.mobile#about-img"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "about-us"
+    }
+  },
+
+  "responsive-layout.desktop#about-img": {
+    "children": [
+      "image#about-us"
+    ]
+  },
+  "responsive-layout.tablet#about-img": {
+    "children": [
+      "image#about-us"
+    ]
+  },
+  "responsive-layout.mobile#about-img": {
+    "children": [
+      "image#about-us-m"
+    ]
+  },
+
+  "image#about-us": {
+    "props": {
+      "src": "/arquivos/about-us.png",
+      "blockClass": "about-us"
+    }
+  },
+  "image#about-us-m": {
+    "props": {
+      "src": "/arquivos/about-us-m.png",
+      "blockClass": "about-us"
+    }
+  }
+}

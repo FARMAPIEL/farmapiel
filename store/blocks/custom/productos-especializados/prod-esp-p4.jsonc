@@ -1,0 +1,64 @@
+{
+    "flex-layout.row#prod-esp-p4": {
+      "children": [
+        "image#pe-p4",
+        "flex-layout.col#prod-esp-p4"
+      ],
+      "props": {
+        "colSizing": "auto",
+        "blockClass": "prod-esp-p-right"
+      }
+    },
+    "flex-layout.col#prod-esp-p4": {
+      "children": [
+        "rich-text#pe-p4-titulo",
+        "rich-text#pe-p4-texto1",
+        "rich-text#pe-p4-texto2",
+        // "rich-text#pe-p4-texto3",
+        "link#pe-p4"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "prod-esp-p"
+      }
+    },
+    "rich-text#pe-p4-titulo": {
+      "props": {
+        "text": "Xeltetra-L**Xeltetra-L**",
+        "blockClass": "pe-p-titulo"
+      }
+    },
+    "rich-text#pe-p4-texto1": {
+      "props": {
+        "text": "Principio activo: Limeciclina",
+        "blockClass": "pe-p-texto1"
+      }
+    },
+    "rich-text#pe-p4-texto2": {
+      "props": {
+        "text": "Presentación: 300mg de 20 cápsulas",
+        "blockClass": "pe-p-texto2"
+      }
+    },
+    "rich-text#pe-p4-texto3": {
+      "props": {
+        "text": "Presentación: 100mg de 28 cápsulas",
+        "blockClass": "pe-p-texto3"
+      }
+    },
+    "link#pe-p4": {
+      "props": {
+        "href": "http://www.skinpartners.com.mx/",
+        "label": "Recibe más información",
+        "blockClass": "pe-p"
+      }
+    },
+    "image#pe-p4": {
+      "props": {
+        "src": "/arquivos/pe-p4.png",
+        "blockClass": "pe-p"
+      }
+    }
+  }
+  
+  

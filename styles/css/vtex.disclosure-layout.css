@@ -1,0 +1,23 @@
+.content--menu-cats {
+  display: flex;
+  flex-direction: column;
+    gap: 16px;
+    border-bottom: 1px solid black;
+    padding-bottom: 16px;
+    height: auto;
+  transition: all .3s ease-in-out;
+}
+
+
+.trigger {
+   padding: 0;
+   margin: 0;
+  background-color: white;
+    border: none;
+ }
+
+ .trigger--visible :global(.vtex-rich-text-0-x-container--menu-cats)::after {
+  transform: rotate(-90deg);
+ }
+
+

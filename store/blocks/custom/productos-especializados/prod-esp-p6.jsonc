@@ -1,0 +1,62 @@
+{
+    "flex-layout.row#prod-esp-p6": {
+      "children": [
+        "image#pe-p6",
+        "flex-layout.col#prod-esp-p6"
+      ],
+      "props": {
+        "colSizing": "auto",
+        "blockClass": "prod-esp-p-right"
+      }
+    },
+    "flex-layout.col#prod-esp-p6": {
+      "children": [
+        "rich-text#pe-p6-titulo",
+        "rich-text#pe-p6-texto1",
+        "rich-text#pe-p6-texto2",
+        // "rich-text#pe-p6-texto3",
+        "link#pe-p6"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "prod-esp-p"
+      }
+    },
+    "rich-text#pe-p6-titulo": {
+      "props": {
+        "text": "Tipsallen**Tipsallen**",
+        "blockClass": "pe-p-titulo"
+      }
+    },
+    "rich-text#pe-p6-texto1": {
+      "props": {
+        "text": "Principio activo: Clindamicina 1%",
+        "blockClass": "pe-p-texto1"
+      }
+    },
+    "rich-text#pe-p6-texto2": {
+      "props": {
+        "text": "Presentación: Tubo con 30g",
+        "blockClass": "pe-p-texto2"
+      }
+    },
+    "rich-text#pe-p6-texto3": {
+      "props": {
+        "text": "Presentación: 100mg de 28 cápsulas",
+        "blockClass": "pe-p-texto3"
+      }
+    },
+    "link#pe-p6": {
+      "props": {
+        "href": "http://www.skinpartners.com.mx/",
+        "label": "Recibe más información",
+        "blockClass": "pe-p"
+      }
+    },
+    "image#pe-p6": {
+      "props": {
+        "src": "/arquivos/pe-p6.png",
+        "blockClass": "pe-p"
+      }
+    }
+  }

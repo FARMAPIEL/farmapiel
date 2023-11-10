@@ -1,0 +1,134 @@
+{
+  "flex-layout.row#home-seccion4": {
+    "children": [
+      "flex-layout.col#home-seccion4"
+    ],
+    "props": {
+      "blockClass": "home-seccion4"
+    }
+  },
+  "flex-layout.col#home-seccion4": {
+    "children": [
+      "rich-text#home-seccion4",
+      "flex-layout.row#home-seccion4-productos"
+    ],
+    "props": {
+      "blockClass": "home-seccion4"
+    }
+  },
+  "rich-text#home-seccion4": {
+    "props": {
+      "text": "Nuestros productos",
+      "textPosition": "CENTER",
+      "blockClass": "home-seccion4"
+    }
+  },
+
+  "flex-layout.row#home-seccion4-productos": {
+    "children": [
+      "flex-layout.col#home-seccion4-p1",
+      "flex-layout.col#home-seccion4-p2",
+      "flex-layout.col#home-seccion4-p3"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "home-seccion4-productos"
+    }
+  },
+
+  "flex-layout.col#home-seccion4-p1": {
+    "children": [
+      "image#home-seccion4-p1",
+      "rich-text#home-seccion4-p1",
+      "link#home-seccion4-p1"
+    ],
+    "props": {
+      "blockClass": "home-seccion4-p"
+    }
+  },
+  "flex-layout.col#home-seccion4-p2": {
+    "children": [
+      "image#home-seccion4-p2",
+      "rich-text#home-seccion4-p2",
+      "link#home-seccion4-p2"
+    ],
+    "props": {
+      "blockClass": "home-seccion4-p"
+    }
+  },
+  "flex-layout.col#home-seccion4-p3": {
+    "children": [
+      "image#home-seccion4-p3",
+      "rich-text#home-seccion4-p3",
+      "link#home-seccion4-p3"
+    ],
+    "props": {
+      "blockClass": "home-seccion4-p"
+    }
+  },
+
+
+  "image#home-seccion4-p1": {
+    "props": {
+      "src": "/arquivos/s4_1.png",
+      "blockClass": "home-seccion4-p"
+    }
+  },
+  "image#home-seccion4-p2": {
+    "props": {
+      "src": "/arquivos/s4_2.png",
+      "blockClass": "home-seccion4-p"
+    }
+  },
+  "image#home-seccion4-p3": {
+    "props": {
+      "src": "/arquivos/s4_3.png",
+      "blockClass": "home-seccion4-p"
+    }
+  },
+
+  "rich-text#home-seccion4-p1": {
+    "props": {
+      "text": "Crema facial antiedad",
+      "textPosition": "CENTER",
+      "blockClass": "home-seccion4-p"
+    }
+  },
+  "rich-text#home-seccion4-p2": {
+    "props": {
+      "text": "Ácido Hialurónico",
+      "textPosition": "CENTER",
+      "blockClass": "home-seccion4-p"
+    }
+  },
+  "rich-text#home-seccion4-p3": {
+    "props": {
+      "text": "Contorno de ojos",
+      "textPosition": "CENTER",
+      "blockClass": "home-seccion4-p"
+    }
+  },
+
+
+  "link#home-seccion4-p1": {
+    "props": {
+      "href": "/",
+      "label": "Conoce más",
+      "blockClass": "home-seccion4-p"
+    }
+  },
+  "link#home-seccion4-p2": {
+    "props": {
+      "href": "/",
+      "label": "Conoce más",
+      "blockClass": "home-seccion4-p"
+    }
+  },
+  "link#home-seccion4-p3": {
+    "props": {
+      "href": "/",
+      "label": "Conoce más",
+      "blockClass": "home-seccion4-p"
+    }
+  }
+}

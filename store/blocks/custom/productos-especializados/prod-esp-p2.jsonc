@@ -1,0 +1,62 @@
+{
+  "flex-layout.row#prod-esp-p2": {
+    "children": [
+      "image#pe-p2",
+      "flex-layout.col#prod-esp-p2"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "prod-esp-p-right"
+    }
+  },
+  "flex-layout.col#prod-esp-p2": {
+    "children": [
+      "rich-text#pe-p2-titulo",
+      "rich-text#pe-p2-texto1",
+      "rich-text#pe-p2-texto2",
+      "rich-text#pe-p2-texto3",
+      "link#pe-p2"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "prod-esp-p"
+    }
+  },
+  "rich-text#pe-p2-titulo": {
+    "props": {
+      "text": "Lievricin**Lievricin**",
+      "blockClass": "pe-p-titulo"
+    }
+  },
+  "rich-text#pe-p2-texto1": {
+    "props": {
+      "text": "Principio activo: Doxiciclina",
+      "blockClass": "pe-p-texto1"
+    }
+  },
+  "rich-text#pe-p2-texto2": {
+    "props": {
+      "text": "Presentación: 50mg de 28 cápsulas",
+      "blockClass": "pe-p-texto2"
+    }
+  },
+  "rich-text#pe-p2-texto3": {
+    "props": {
+      "text": "Presentación: 100mg de 28 cápsulas",
+      "blockClass": "pe-p-texto3"
+    }
+  },
+  "link#pe-p2": {
+    "props": {
+      "href": "http://www.skinpartners.com.mx/",
+      "label": "Recibe más información",
+      "blockClass": "pe-p"
+    }
+  },
+  "image#pe-p2": {
+    "props": {
+      "src": "/arquivos/pe-p2.png",
+      "blockClass": "pe-p"
+    }
+  }
+}
