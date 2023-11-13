@@ -28,12 +28,18 @@
 
 .nameContainer {
   justify-content: start;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  /* padding-top: 1rem;
+  padding-bottom: 1rem; */
+  padding: 0.5rem 0 1rem;
+}
+@media screen and (max-width: 640px) {
+  .nameContainer {
+    height: 72px;
+  }
 }
 
 .brandName {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   color: #3A3A3A;
   display: -webkit-box;
@@ -56,10 +62,14 @@
 
 @media screen and (max-width: 640px) {
   .brandName {
-  
+    font-size: 15px !important;
     display: -webkit-box;
       -webkit-box-orient: vertical;
       -webkit-line-clamp: 3;
       white-space: pre-wrap;
   }
+}
+.element {
+  position: relative;
+  justify-content: space-around;
 }

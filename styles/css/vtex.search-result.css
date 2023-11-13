@@ -20,3 +20,27 @@
 .galleryItem--list {
   border-bottom: 1px #E7E9EE solid;
 }
+
+
+/* INICIO FILTROS Y ORDENAR POR */
+
+.filterPopupButton {
+
+}
+@media only screen and (max-width: 640px) {
+  .filterPopupButton {
+    margin: 0;
+    padding: 1rem 0;
+  }
+  .orderByButton {
+    margin: 0;
+    padding: 1rem 0;
+  }
+}
+.orderByButton {
+
+}
+.orderByText, .filterPopupTitle {
+  color: rgb(26, 26, 26);
+}
+/* FIN FILTROS Y ORDENAR POR */

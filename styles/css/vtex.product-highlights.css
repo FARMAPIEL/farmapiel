@@ -1,12 +1,16 @@
+.productHighlightText {
+  color: #298d7a;
+  /* font-family: "SpartanSemiBold"; */
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 .productHighlightWrapper--collection {
-  position: absolute;
-  top: 10px;
-  left: 5px;
-  width: 200px;
+  display: flex;
 }
 
-.productHighlightText {
-  background: antiquewhite;
-  border-radius: 20px;
-  padding: 5px 10px;
+@media only screen and (max-width: 640px) {
+  .productHighlightText {
+    font-size: 11px;
+  }
 }

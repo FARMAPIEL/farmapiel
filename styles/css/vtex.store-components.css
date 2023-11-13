@@ -305,3 +305,23 @@ margin: 24px 0;
   margin: 16px auto 0;
     display: block;
 }
+
+
+
+/* INICIO BANNERS */
+
+.imageElement--banner-buenfin {
+  height: 50vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+
+  .imageElement--banner-buenfin {
+    height: 100%;
+  }
+  
+}
+
+/* FIN BANNERS */

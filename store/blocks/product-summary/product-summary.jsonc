@@ -100,7 +100,8 @@
   },
   "product-highlight-text": {
     "props": {
-      "message": "{highlightName}"
+      "message": "{highlightName}",
+      "blockClass":["envio-gratis-cuc"]
     }
   },
 

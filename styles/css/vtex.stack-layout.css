@@ -8,3 +8,18 @@
   top: 0;
   left: auto;
 }
+@media (max-width: 991px) {
+  .stackItem--contenedor-cucardas {
+    z-index: 2 !important;
+    top: 0px;
+    left: 0px;
+  }
+  .stackItem--contenedor-cucardas :global(.vtex-product-price-1-x-savings--discount) {
+    font-size: 20px !important;
+    padding: 5px 9px;
+  }
+  .stackItem--contenedor-cucardas :global(.vtex-flex-layout-0-x-flexCol--accion-moda-product) {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
