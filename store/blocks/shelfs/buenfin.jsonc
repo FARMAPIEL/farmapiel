@@ -1,6 +1,11 @@
 {
     "store.custom#buenfin": { 
-      "blocks": ["flex-layout.row#main-banner-buenfin", "search-result-layout.customQuery#buenfin", "flex-layout.row#mp-banner-buenfin", "flex-layout.row#shelf-faq"]
+      "blocks": [
+        "flex-layout.row#main-banner-buenfin", 
+        "flex-layout.row#main-banner-buenfin-2", 
+        "search-result-layout.customQuery#buenfin", 
+        "flex-layout.row#mp-banner-buenfin", 
+        "flex-layout.row#shelf-faq"]
     },
       "flex-layout.row#main-banner-buenfin": {
         "children": [
@@ -10,9 +15,25 @@
           "blockClass": "slider-buenfin-container"
         }
       },
+      "flex-layout.row#main-banner-buenfin-2": {
+        "children": [
+          "flex-layout.col#main-banner-buenfin-2"
+        ],
+        "props": {
+          "blockClass": "slider-buenfin-container"
+        }
+      },
       "flex-layout.col#main-banner-buenfin": {
         "children": [
           "list-context.image-list#buenfin"
+        ],
+        "props": {
+          "blockClass": "slider-buenfin-box"
+        }
+      },
+      "flex-layout.col#main-banner-buenfin-2": {
+        "children": [
+          "list-context.image-list#buenfin-2"
         ],
         "props": {
           "blockClass": "slider-buenfin-box"
@@ -31,6 +52,29 @@
         }
       },
       "slider-layout#buenfin-images": {
+        "props": {
+          "blockClass": "slider-buenfin",
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true
+        }
+      },
+      "list-context.image-list#buenfin-2": {
+        "children": ["slider-layout#buenfin-images-2"],
+        "props": {
+          "images": [
+            {
+              "image": "assets/banners/mp-buenfin-desktop.png",
+              "mobileImage": "assets/banners/mp-buenfin-mobile.png",
+              "description": "buenfin"
+            }
+          ]
+        }
+      },
+      "slider-layout#buenfin-images-2": {
         "props": {
           "blockClass": "slider-buenfin",
           "itemsPerPage": {
