@@ -267,11 +267,12 @@
    "flex-layout.row#pdp-precios": {
     "props": {
       "colSizing": "auto",
-      "preserveLayoutOnMobile": true,
+      "preserveLayoutOnMobile": false,
       "blockClass": "pdp-precios"
     },
     "children": [
-      "flex-layout.col#precios",
+      // "flex-layout.col#precios",
+      "flex-layout.row#product-price",
       "product-quantity"
     ]
   },
@@ -292,6 +293,13 @@
       "product-list-price",
       "product-selling-price"
     ]
+  },
+  "product-price": {
+    "props": {
+      "showListPrice": true,
+      "showLabels": false,
+      "showListPriceRange": true
+    }
   },
   "product-list-price" :{
     "props" :{

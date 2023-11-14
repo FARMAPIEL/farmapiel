@@ -290,12 +290,21 @@
 
 .productNameContainer {
   color: #3A3A3A;
-font-family: Lora;
+/* font-family: Lora; */
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: 32px;
 margin: 24px 0;
+}
+
+.priceContainer .listPrice {
+  padding: 0px;
+  display: flex;
+}
+.priceContainer .sellingPrice .currencyContainer {
+  color: #ff0000;
+  margin-left: 0.5rem;
 }
 
 .image {
@@ -311,9 +320,13 @@ margin: 24px 0;
 /* INICIO BANNERS */
 
 .imageElement--banner-buenfin {
-  height: 50vh;
-  object-fit: cover;
+  /* height: 50vh;
+  object-fit: cover; */
   width: 100%;
+}
+.imageElement--slider-buenfin {
+  height: 100% !important;
+  max-height: 100% !important;
 }
 
 @media only screen and (max-width: 640px) {

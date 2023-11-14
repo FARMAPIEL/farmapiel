@@ -107,7 +107,7 @@
 
 
   "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
+    "blocks": ["product-summary.shelf#buenfin"],
     "children": ["slider-layout#demo-products"],
     "props": {
       "collection": "137"

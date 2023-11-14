@@ -145,7 +145,7 @@
   },
   "list-context.product-list#NuestrosProductos": {
     "blocks": [
-      "product-summary.shelf"
+      "product-summary.shelf#buenfin"
     ],
     "children": [
       "slider-layout#related"

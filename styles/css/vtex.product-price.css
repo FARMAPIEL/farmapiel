@@ -9,14 +9,30 @@
 .sellingPriceValue--summary, .listPriceValue--summary {
   /* font-size: 1.25rem; */
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 500;
   color: #2e2e2e;
   /* font-family: Lora; */
 }
 
+:global(.vtex-flex-layout-0-x-flexRowContent--product-main) .sellingPriceValue--summary, :global(.vtex-flex-layout-0-x-flexRowContent--product-main) .listPriceValue--summary {
+  font-size: 32px;
+  font-weight: 600;
+  color: #2e2e2e;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-main) .sellingPrice--summary--hasListPrice {
+  margin-left: -1rem;
+}
+
 @media only screen and (max-width: 600px) {
   .sellingPriceValue--summary, .listPriceValue--summary {
-    font-size: 15px;
+    font-size: 13px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--product-main) .sellingPriceValue--summary, :global(.vtex-flex-layout-0-x-flexRowContent--product-main) .listPriceValue--summary {
+    font-size: 28px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--product-main) .sellingPrice--summary--hasListPrice {
+    margin-left: 0.5rem;
   }
 }
 

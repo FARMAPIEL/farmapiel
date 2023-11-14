@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 32px;
-    margin-top: 24px;
+    margin-top: 32px;
 }
 .flexRow--orderByAndSwitcher {
   padding-right: 1.5em;
@@ -49,4 +49,7 @@
     align-items: center;
     margin: 12px 0;
   }
+  .flexRowContent--pdp-precios{
+    flex-wrap: wrap;
+}
 }

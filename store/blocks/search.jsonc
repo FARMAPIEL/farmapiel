@@ -255,7 +255,7 @@
         }
       ],
       "ListSummary": "product-summary.shelf#listLayout",
-      "GridSummary": "product-summary.shelf"
+      "GridSummary": "product-summary.shelf#buenfin"
     }
   },
   "gallery-layout-switcher": {

@@ -1,6 +1,6 @@
 {
     "store.custom#buenfin": { 
-      "blocks": ["flex-layout.row#main-banner-buenfin", "search-result-layout.customQuery#buenfin", "flex-layout.row#mp-banner-buenfin"]
+      "blocks": ["flex-layout.row#main-banner-buenfin", "search-result-layout.customQuery#buenfin", "flex-layout.row#mp-banner-buenfin", "flex-layout.row#shelf-faq"]
     },
       "flex-layout.row#main-banner-buenfin": {
         "children": [
@@ -12,13 +12,36 @@
       },
       "flex-layout.col#main-banner-buenfin": {
         "children": [
-            "image#banner-buenfin"
+          "list-context.image-list#buenfin"
         ],
         "props": {
           "blockClass": "slider-buenfin-box"
         }
       },
-      "image#banner-buenfin": {
+      "list-context.image-list#buenfin": {
+        "children": ["slider-layout#buenfin-images"],
+        "props": {
+          "images": [
+            {
+              "image": "assets/banners/buenfin-desktop.png",
+              "mobileImage": "assets/banners/buenfin-mobile.png",
+              "description": "buenfin"
+            }
+          ]
+        }
+      },
+      "slider-layout#buenfin-images": {
+        "props": {
+          "blockClass": "slider-buenfin",
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true
+        }
+      },
+      "image#banner-buenfin-desktop": {
         "props": {
           "src": "assets/banners/buenfin-desktop.png",
           "blockClass": "banner-buenfin"
@@ -26,24 +49,33 @@
       },
       "flex-layout.row#mp-banner-buenfin": {
         "children": [
-          "flex-layout.col#mp-banner-buenfin"
+          "list-context.image-list#mp-buenfin"
         ],
         "props": {
           "blockClass": "slider-buenfin-container"
         }
       },
-      "flex-layout.col#mp-banner-buenfin": {
-        "children": [
-            "image#mp-buenfin"
-        ],
+      "list-context.image-list#mp-buenfin": {
+        "children": ["slider-layout#mp-buenfin-images"],
         "props": {
-          "blockClass": "mp-buenfin-box"
+          "images": [
+            {
+              "image": "assets/banners/mp-buenfin-desktop.png",
+              "mobileImage": "assets/banners/mp-buenfin-mobile.png",
+              "description": "buenfin"
+            }
+          ]
         }
       },
-      "image#mp-buenfin": {
+      "slider-layout#mp-buenfin-images": {
         "props": {
-          "src": "assets/banners/mercado-pago-buenfin.png",
-          "blockClass": "mp-buenfin"
+          "blockClass": "slider-buenfin",
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true
         }
       },
       "search-result-layout.customQuery#buenfin": {
