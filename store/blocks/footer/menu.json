@@ -297,6 +297,7 @@
       "orientation": "vertical"
     },
     "children": [
+      "menu-item#enlaces-buenfin",
       "menu-item#enlaces-productos",
       "menu-item#enlaces-carrito"
     ]

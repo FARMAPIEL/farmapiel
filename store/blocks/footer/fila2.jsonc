@@ -255,6 +255,7 @@
     },
     "children": [
       "menu-item#enlaces-titulo",
+      "menu-item#enlaces-buenfin",
       "menu-item#enlaces-productos",
       "menu-item#enlaces-carrito"
     ]
@@ -273,6 +274,22 @@
         "text": "Enlaces de interés"
       },
       "blockClass": "menu-titulo"
+    }
+  },
+  "menu-item#enlaces-buenfin": {
+    "props": {
+      "id": "menu-enlaces-buenfin",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/buenfin",
+        "noFollow": false,
+        "tagTitle": "Buenfin",
+        "text": "Buenfin"
+      },
+      "blockClass": "menu-item"
     }
   },
   "menu-item#enlaces-productos": {
