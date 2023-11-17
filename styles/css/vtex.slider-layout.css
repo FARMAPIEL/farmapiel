@@ -21,6 +21,9 @@
   margin: 0 auto;
   margin-bottom: 88px;
 }
+.sliderLayoutContainer--pre-header-top {
+  margin-bottom: 0px;
+}
 
 .sliderTrackContainer {
   max-width: 100%;
@@ -43,4 +46,13 @@
   padding-left: .5rem;
   padding-right: .5rem;
   min-height: 550px;
+}
+.slideChildrenContainer--pre-header-top {
+  background-color: #ee291a;
+}
+
+@media only screen and (max-width: 600px) {
+  .sliderTrack--pre-header-top {
+    height: 39px;
+  }
 }

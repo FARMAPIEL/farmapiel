@@ -11,8 +11,63 @@
       "sticky-layout#4-desktop"
     ]
   },
+  "slider-layout#pre-header-desktop": {
+      "props": {
+        "autoplay": {
+          "timeout": 7000,
+          "stopOnHover": true
+      },
+      "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "fullWidth": true,
+      "blockClass": ["carousel", "pre-header-top"]
+    },
+    "children": ["rich-text#pre-header-1", "rich-text#pre-header-2"]
+  },
+  "slider-layout#pre-header-mobile": {
+    "props": {
+      "autoplay": {
+        "timeout": 7000,
+        "stopOnHover": true
+    },
+    "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+    },
+    "infinite": true,
+    "showPaginationDots": "never",
+    "showNavigationArrows": "never",
+    "fullWidth": true,
+    "blockClass": ["carousel", "pre-header-top"]
+    },
+    "children": ["rich-text#pre-header-3", "rich-text#pre-header-2"]
+  },
 
-
+  "rich-text#pre-header-1": {
+    "props": {
+      "text": "🔥¡Llegó el Buen Fin!🔥 Hasta 40% de descuento en productos seleccionados + REGALO. Válido del 16 al 21 de Noviembre.",
+      "blockClass": "pre-header-text"
+    }
+  },
+  "rich-text#pre-header-2": {
+    "props": {
+      "text": "Envíos gratis a todo el país",
+      "blockClass": "pre-header-text"
+    }
+  },
+  "rich-text#pre-header-3": {
+    "props": {
+      "text": "🔥¡Llegó el Buen Fin!🔥 Hasta 40% OFF",
+      "blockClass": "pre-header-text"
+    }
+  },
   "rich-text#header-envio": {
     "props": {
       "text": "ENVÍOS GRATIS EN COMPRAS MAYORES A $899",
@@ -52,7 +107,10 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["rich-text#header-envio","flex-layout.row#4-desktop"]
+    "children": [
+      // "rich-text#header-envio",
+      "slider-layout#pre-header-desktop",
+      "flex-layout.row#4-desktop"]
   },
   "flex-layout.row#4-desktop": {
     "props": {
@@ -106,7 +164,8 @@
   },
   "sticky-layout#1-mobile": {
     "children": [
-      "rich-text#header-envio",
+      // "rich-text#header-envio",
+      "slider-layout#pre-header-mobile",
       "flex-layout.row#1-mobile",
       "search-bar"
     ]
