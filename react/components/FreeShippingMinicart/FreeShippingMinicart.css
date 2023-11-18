@@ -1,0 +1,133 @@
+.ShippingMinicart-container{
+    border-top: solid 1px #C4C4C4;
+    padding: 15px 0;
+}
+
+.ShippingMinicart-wrapper{
+    max-width: 318px;
+    margin: 0 auto;
+}
+.ShippingMinicart-title,
+.ShippingMinicart-text,
+.ShippingMinicart-freeText{
+    color: black;
+    text-align: center;
+    /* font-family: 'Overpass'; */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 auto;
+}
+
+.ShippingMinicart-textPrice,
+.ShippingMinicart-textHighlight{
+    font-weight: bold;
+}
+
+.ShippingMinicart-freeText{
+    font-weight: bold;
+    /* font-family: 'Overpass'; */
+    color: #03AB00!important;
+}
+.ShippingMinicart-wrapperBar{
+    margin: 0 auto 5px;
+}
+/* .ShippingMinicart-containerBar{
+    width: 100%;
+    display: none;
+    height: 10px;
+    background: #E6E0E9;
+    border-radius: 10px;
+    overflow: hidden;
+} */
+.ShippingMinicart-green{
+    color:#03AB00;
+}
+.ShippingMinicart-bar{
+    background: #ffa500;
+    height: 100%;
+    -webkit-transition: width 400ms ease-out;
+    -moz-transition: width 400ms ease-out;
+    -ms-transition: width 400ms ease-out;
+    -o-transition: width 400ms ease-out;
+    transition: width 400ms ease-out;
+}
+.ShippingMinicart-statusFree .ShippingMinicart-bar{
+    background: #ffa500;
+}
+.ShippingMinicart-container {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .ShippingMinicart-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    /* border: 1px solid #ddd; */
+  }
+  
+  .ShippingMinicart-wrapperBar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .ShippingMinicart-containerBar {
+    position: relative;
+    height: 10px;
+    background-color: #e0e0e0;
+    margin-bottom: 8px;
+  }
+  
+  .ShippingMinicart-bar {
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.3s ease;
+  }
+  
+  .ShippingMinicart-freeText {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .ShippingMinicart-text {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .ShippingMinicart-textPrice {
+    font-weight: bold;
+  }
+  
+  .ShippingMinicart-green {
+    color: #4caf50;
+  }
+
+  
+  .ShippingMinicart-progressText {
+    font-size: 14px;
+    color: #333;
+  }
+  .ShippingMinicart-containerBar {
+    height: 10px;
+    background-color: #e0e0e0;
+    margin-bottom: 8px;
+    width: 100%;
+  }
+  
+  .ShippingMinicart-bar {
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.3s ease;
+  }
+  
+  .ShippingMinicart-wrapperBar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  

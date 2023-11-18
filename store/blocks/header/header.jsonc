@@ -14,7 +14,7 @@
   "slider-layout#pre-header-desktop": {
       "props": {
         "autoplay": {
-          "timeout": 7000,
+          "timeout": 5000,
           "stopOnHover": true
       },
       "itemsPerPage": {
@@ -33,7 +33,7 @@
   "slider-layout#pre-header-mobile": {
     "props": {
       "autoplay": {
-        "timeout": 7000,
+        "timeout": 5000,
         "stopOnHover": true
     },
     "itemsPerPage": {
