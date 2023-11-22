@@ -255,7 +255,7 @@
     },
     "children": [
       "menu-item#enlaces-titulo",
-      "menu-item#enlaces-buenfin",
+      // "menu-item#enlaces-buenfin",
       "menu-item#enlaces-productos",
       "menu-item#enlaces-carrito"
     ]
