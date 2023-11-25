@@ -26,16 +26,58 @@
 
   "flex-layout.row#home-seccion4-productos": {
     "children": [
-      "flex-layout.col#home-seccion4-p1",
-      "flex-layout.col#home-seccion4-p2",
-      "flex-layout.col#home-seccion4-p3"
+      "list-context.product-list#mas-vendidos"
     ],
     "props": {
       "preserveLayoutOnMobile": true,
       "blockClass": "home-seccion4-productos"
     }
   },
-
+  "list-context.product-list#mas-vendidos": {
+    "blocks": [
+      "product-summary.shelf#buenfin"
+    ],
+    "children": [
+      "slider-layout#products"
+    ],
+    "props": {
+      "collection": "141"
+    }
+  },
+  "slider-layout#products": {
+    "props": {
+      // "autoplay": {
+      //   "timeout": 3000,
+      //   "stopOnHover": true
+      // },
+      "slideTransition": {
+        "speed": 500,
+        "delay": 0,
+        "timing": "ease-in-out"
+      },
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "navigationStep": 1,
+      "centerMode": {
+        "desktop": "enabled",
+        "tablet": "enabled",
+        "phone": "enabled"
+      },
+      "centerModeSlidesGap": "center",
+      "fullWidth": true,
+      "infinite": false,
+      "blockClass": [
+        "nuestro-diferencial",
+        "shelf-default",
+        "shelf-mas-vendidos"
+      ],
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never"
+    }
+  },
   "flex-layout.col#home-seccion4-p1": {
     "children": [
       "image#home-seccion4-p1",

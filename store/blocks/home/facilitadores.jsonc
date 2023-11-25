@@ -1,0 +1,204 @@
+{
+    "slider-layout#promotional-info": {
+        "children": [
+          "flex-layout.row#card1",
+          "flex-layout.row#card2",
+          "flex-layout.row#card3",
+          "flex-layout.row#card4",
+          "flex-layout.row#card5",
+          "flex-layout.row#card6"
+        ],
+        "props": {
+          "usePagination": true,
+          "itemsPerPage": {
+            "desktop": 6,
+            "tablet": 2,
+            "phone": 1
+          },
+          "infinite": false,
+          "centerMode": {
+            "desktop": "enabled",
+            "tablet": "enabled",
+            "phone": "disabled"
+          },
+          "fullWidth": true,
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots": "mobileOnly",
+          "blockClass": "sliderPromotionalInfo"
+        }
+      },
+      "flex-layout.row#card1": {
+        "children": ["flex-layout.col#card1"]
+      },
+      "flex-layout.row#card2": {
+        "children": ["flex-layout.col#card2"]
+      },
+      "flex-layout.row#card3": {
+        "children": ["flex-layout.col#card3"]
+      },
+      "flex-layout.row#card4": {
+        "children": ["flex-layout.col#card4"]
+      },
+      "flex-layout.row#card5": {
+        "children": ["flex-layout.col#card5"]
+      },
+      "flex-layout.row#card6": {
+        "children": ["flex-layout.col#card6"]
+      },
+      "flex-layout.col#card1": {
+        "children": ["image#card1", "rich-text#card1", "rich-text#card1-subtitle"],
+        "props": {
+          "blockClass": "promotionalInfoCard",
+          "horizontalAlign": "center"
+        }
+      },
+      "flex-layout.col#card2": {
+        "children": ["image#card2", "rich-text#card2", "rich-text#card2-subtitle"],
+        "props": {
+          "blockClass": "promotionalInfoCard",
+          "horizontalAlign": "center"
+        }
+      },
+      "flex-layout.col#card3": {
+        "children": ["image#card3", "rich-text#card3", "rich-text#card3-subtitle"],
+        "props": {
+          "blockClass": "promotionalInfoCard",
+          "horizontalAlign": "center"
+        }
+      },
+      "flex-layout.col#card4": {
+        "children": ["image#card4", "rich-text#card4", "rich-text#card4-subtitle"],
+        "props": {
+          "blockClass": "promotionalInfoCard",
+          "horizontalAlign": "center"
+        }
+      },
+      "flex-layout.col#card5": {
+        "children": ["image#card5", "rich-text#card5", "rich-text#card5-subtitle"],
+        "props": {
+          "blockClass": "promotionalInfoCard",
+          "horizontalAlign": "center"
+        }
+      },
+      "flex-layout.col#card6": {
+        "children": ["image#card6", "rich-text#card6", "rich-text#card6-subtitle"],
+        "props": {
+          "blockClass": "promotionalInfoCard",
+          "horizontalAlign": "center"
+        }
+      },
+      "image#card1": {
+        "props": {
+          "src": "assets/icons/entrega.png",
+          "link": "#",
+          "blockClass": "promotionalCardImage"
+        }
+      },
+      "rich-text#card1": {
+        "props": {
+          "text": "Envío gratis",
+          "blockClass": "promotionalCardText"
+        }
+      },
+      "rich-text#card1-subtitle": {
+        "props": {
+          "text": "A partir de $899. \n Enviamos tus pedidos a todo México.",
+          "blockClass": "promotionalCardText-subtitle"
+        }
+      },
+      "image#card2": {
+        "props": {
+          "src": "assets/icons/reembolso.png",
+          "link": "#",
+          "blockClass": "promotionalCardImage"
+        }
+      },
+      "rich-text#card2": {
+        "props": {
+          "text": "REEMBOLSO DE 30 DÍAS",
+          "blockClass": "promotionalCardText"
+        }
+      },
+      "rich-text#card2-subtitle": {
+        "props": {
+          "text": "Devuélvelos dentro de 30 días para un reembolso. \n Se aplican términos y condiciones.",
+          "blockClass": "promotionalCardText-subtitle"
+        }
+      },
+      "image#card3": {
+        "props": {
+          "src": "assets/icons/medio-pago.png",
+          "link": "#",
+          "blockClass": "promotionalCardImage"
+        }
+      },
+      "rich-text#card3": {
+        "props": {
+          "text": "MÚLTIPLES MÉTODOS DE PAGO",
+          "blockClass": "promotionalCardText"
+        }
+      },
+      "rich-text#card3-subtitle": {
+        "props": {
+          "text": "Aceptamos todos los principales métodos de pago.",
+          "blockClass": "promotionalCardText-subtitle"
+        }
+      },
+      "image#card4": {
+        "props": {
+          "src": "assets/icons/ahorrar-dinero.png",
+          "link": "#",
+          "blockClass": "promotionalCardImage"
+        }
+      },
+      "rich-text#card4": {
+        "props": {
+          "text": "PAGO 100% SEGURO",
+          "blockClass": "promotionalCardText"
+        }
+      },
+      "rich-text#card4-subtitle": {
+        "props": {
+          "text": "Tu pago se procesa directamente a través de \n PayPal, mercado pago o kueski",
+          "blockClass": "promotionalCardText-subtitle"
+        }
+      },
+      "image#card5": {
+        "props": {
+          "src": "assets/icons/dermatologo.png",
+          "link": "#",
+          "blockClass": "promotionalCardImage"
+        }
+      },
+      "rich-text#card5": {
+        "props": {
+          "text": "Laboratorio farmacéutico",
+          "blockClass": "promotionalCardText"
+        }
+      },
+      "rich-text#card5-subtitle": {
+        "props": {
+          "text": "Desarrollamos y fabricamos nuestros productos \n con estándares de calidad de grado farmacéutico.",
+          "blockClass": "promotionalCardText-subtitle"
+        }
+      },
+      "image#card6": {
+        "props": {
+          "src": "assets/icons/laboratorio.png",
+          "link": "#",
+          "blockClass": "promotionalCardImage"
+        }
+      },
+      "rich-text#card6": {
+        "props": {
+          "text": "PAGO 100% SEGURO",
+          "blockClass": "promotionalCardText"
+        }
+      },
+      "rich-text#card6-subtitle": {
+        "props": {
+          "text": "Tu pago se procesa directamente a través de \n PayPal, mercado pago o kueski",
+          "blockClass": "promotionalCardText-subtitle"
+        }
+      }
+}

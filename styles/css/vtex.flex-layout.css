@@ -242,13 +242,13 @@ line-height: normal;
 
 .flexRowContent--home-seccion4 {
   border-radius: 144px 144px 0px 0px;
-  background: linear-gradient(180deg, #EDF2F3 0%, rgba(237, 242, 243, 0.00) 100%);
+  background: linear-gradient(180deg,#dee3e4 0%,rgba(237,242,243,0.00) 100%);
   padding: 88px;
 }
 
-.flexRowContent--home-seccion4-productos {
+/* .flexRowContent--home-seccion4-productos {
   column-gap: 104px;
-}
+} */
 
 .flexRowContent--home-seccion1,
 .flexRowContent--home-seccion5 {
@@ -701,11 +701,11 @@ line-height: normal;
     }
 
     .flexRowContent--home-seccion4 {
-      padding: 56px 16px;
+      padding: 56px 16px 0;
       border-radius: 0;
     }
 
-    .flexRowContent--home-seccion4-productos .stretchChildrenWidth {
+    /* .flexRowContent--home-seccion4-productos .stretchChildrenWidth {
       width: 248px !important;
     }
     .flexRowContent--home-seccion4-productos {
@@ -713,7 +713,7 @@ line-height: normal;
         overflow-x: scroll;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-    }
+    } */
 
     .flexRowContent--bloque-whatsapp-p{
       position: fixed;
@@ -986,6 +986,23 @@ line-height: normal;
   :global(.vtex-minicart-2-x-minicartProductListContainer) {
     margin-top: 1.5rem;
     padding: 0 1rem;
+  }
+}
+.flexRow--sliderPromotionalInfo {
+  padding: 4rem 7rem;
+  background-color: #f6f6f6;
+  margin: 3rem 0;
+}
+.flexRow--sliderPromotionalInfo .flexRowContent--sliderPromotionalInfo {
+  justify-content: space-between;
+}
+@media screen and (max-width: 720px) {
+  .flexRow--promotionalInfoCard {
+    width: 100%;
+  }
+  .flexRowContent--promotionalInfoCard {
+    display: flex;
+    justify-content: center;
   }
 }
 .flexCol--home-seccion5-1::before {

@@ -50,9 +50,73 @@
 .slideChildrenContainer--pre-header-top {
   background-color: #fcb630;
 }
-
+.sliderTrack--shelf-mas-vendidos {
+  justify-content: center;
+  gap: 5rem;
+}
+.slide--shelf-mas-vendidos {
+  background: white;
+  padding: 1rem;
+  border-radius: 20px;
+}
+.sliderTrackContainer--shelf-mas-vendidos {
+  margin-right: 2rem;
+}
 @media only screen and (max-width: 600px) {
   .sliderTrack--pre-header-top {
     height: 39px;
   }
+  .sliderTrack--shelf-mas-vendidos {
+    justify-content: left;
+    gap: 0rem;
+  }
+  .sliderTrackContainer--shelf-mas-vendidos {
+    margin-right: initial;
+  }
+  .slide--shelf-mas-vendidos {
+    margin: 0.5rem;
+  }
+}
+
+
+.sliderLayoutContainer--sliderPromotionalInfo {
+  padding: 67px 1rem 49px;
+  background-color: #EDF2F3;
+  margin: 3rem 0 4rem;
+}
+@media only screen and (max-width: 600px) {
+  .sliderLayoutContainer--sliderPromotionalInfo {
+    padding: 2.5rem 1rem 3rem;
+    margin: 25px 0;
+  }
+}
+.sliderLayoutContainer--sliderPromotionalInfo .sliderTrackContainer--sliderPromotionalInfo {
+  /* padding: 0 10rem; */
+}
+@media only screen and (max-width: 600px) {
+  .sliderLayoutContainer--sliderPromotionalInfo .sliderTrackContainer--sliderPromotionalInfo {
+    padding: initial;
+  }
+}
+
+.paginationDotsContainer--sliderPromotionalInfo .paginationDot,
+.paginationDotsContainer--shelf-default .paginationDot {
+  background-color: #FFFFFF;
+  margin: 0 10px;
+  width: 3px;
+}
+.paginationDotsContainer--sliderPromotionalInfo .paginationDot::before,
+.paginationDotsContainer--shelf-default .paginationDot::before {
+  border-color: #FFFFFF;
+}
+
+.sliderTrack--sliderPromotionalInfo {
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.paginationDotsContainer--sliderPromotionalInfo {
+  bottom: 20px;
+}
+.paginationDot--sliderPromotionalInfo {
+  background-color: black !important;
 }

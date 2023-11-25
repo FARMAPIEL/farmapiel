@@ -338,3 +338,7 @@ margin: 24px 0;
 }
 
 /* FIN BANNERS */
+
+.imageElement--promotionalCardImage {
+  width: 60px;
+}
