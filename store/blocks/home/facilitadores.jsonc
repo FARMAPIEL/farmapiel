@@ -15,6 +15,10 @@
             "tablet": 2,
             "phone": 1
           },
+          "autoplay": {
+            "timeout": 5000,
+            "stopOnHover": true
+          },
           "infinite": false,
           "centerMode": {
             "desktop": "enabled",

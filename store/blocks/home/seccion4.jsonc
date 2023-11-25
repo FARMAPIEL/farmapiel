@@ -55,12 +55,16 @@
         "delay": 0,
         "timing": "ease-in-out"
       },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
       "itemsPerPage": {
         "desktop": 3,
         "tablet": 2,
         "phone": 1
       },
-      "navigationStep": 1,
+      "navigationStep": 2,
       "centerMode": {
         "desktop": "enabled",
         "tablet": "enabled",
