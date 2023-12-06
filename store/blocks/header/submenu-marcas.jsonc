@@ -1,0 +1,779 @@
+{
+    "submenu#marcas": {
+      "children": ["flex-layout.row#submenu-marcas"],
+      "props": {
+        "width": "100%",
+          "blockClass": ["header-submenu-container", "header-submenu-marcas"]
+      }
+    },
+    "flex-layout.row#submenu-marcas": {
+      "children": [
+        "flex-layout.col#submenu-marcas-1a",
+        "flex-layout.col#submenu-marcas-1b",
+        "flex-layout.col#submenu-marcas-1c",
+        "flex-layout.col#submenu-marcas-1d",
+        "flex-layout.col#submenu-marcas-1e",
+        "flex-layout.col#submenu-marcas-1f",
+        "flex-layout.col#submenu-marcas-1g",
+        "flex-layout.col#submenu-marcas-1h",
+        "flex-layout.col#submenu-marcas-1i"
+        // "flex-layout.col#submenu-marcas-2",
+        // "flex-layout.col#submenu-marcas-3"
+      ],
+      "props": {
+        "blockClass": "header-submenu",
+        "fullWidth": true,
+        "colSizing": "auto"
+      }
+    },
+    "flex-layout.col#submenu-marcas-1a": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "10%"
+      },
+      "children": ["menu-item#submenu-marcas1a", "menu#submenu-marcas1a"]
+    },
+    "flex-layout.col#submenu-marcas-1b": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "10%"
+      },
+      "children": ["menu-item#submenu-marcas1b", "menu#submenu-marcas1b"]
+    },
+    "flex-layout.col#submenu-marcas-1c": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "10%"
+      },
+      "children": ["menu-item#submenu-marcas1c", "menu#submenu-marcas1c"]
+    },
+    "flex-layout.col#submenu-marcas-1d": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "10%"
+      },
+      "children": ["menu-item#submenu-marcas1d", "menu#submenu-marcas1d"]
+    },
+    "flex-layout.col#submenu-marcas-1e": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "10%"
+      },
+      "children": ["menu-item#submenu-marcas1e", "menu#submenu-marcas1e"]
+    },
+    "flex-layout.col#submenu-marcas-1f": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "10%"
+      },
+      "children": ["menu-item#submenu-marcas1f", "menu#submenu-marcas1f"]
+    },
+    "flex-layout.col#submenu-marcas-1g": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "10%"
+      },
+      "children": ["menu-item#submenu-marcas1g", "menu#submenu-marcas1i"]
+    },
+    "flex-layout.col#submenu-marcas-1h": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "10%"
+      },
+      "children": ["menu-item#submenu-marcas1h", "menu#submenu-marcas1h"]
+    },
+    "flex-layout.col#submenu-marcas-1i": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "10%"
+      },
+      "children": ["menu-item#submenu-marcas1i", "menu#submenu-marcas1i"]
+    },
+    "flex-layout.col#submenu-marcas-2": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "20%",
+        "blockClass": ["submenu-image-container", "menu-marcas-mm"]
+      },
+      "children": ["image#submenu-marcas-2", "link#submenu-marcas-2"]
+    },
+    "flex-layout.col#submenu-marcas-3": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "20%",
+        "blockClass": ["submenu-image-container", "menu-marcas-mm"]
+      },
+      "children": ["image#submenu-marcas-3", "link#submenu-marcas-3"]
+    },
+    "image#submenu-marcas-2": {
+      "props": {
+        "width": "238px",
+        "src": "assets/submenu-alfombras-1.png",
+        "link": "#",
+        "blockClass": ["menu-image-link"]
+      }
+    },
+    "image#submenu-marcas-3": {
+      "props": {
+        "width": "238px",
+        "src": "assets/submenu-alfombras-2.png",
+        "link": "#",
+        "blockClass": ["menu-image-link"]
+      }
+    },
+    "link#submenu-marcas-2": {
+      "props": {
+        "href": "#",
+        "label": "De baño",
+        "blockClass": ["menu-text-link"]
+      }
+    },
+    "link#submenu-marcas-3": {
+      "props": {
+        "href": "#",
+        "label": "De habitación",
+        "blockClass": ["menu-text-link"]
+      }
+    },
+  
+    "menu-item#submenu-marcas1a": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-submenu-title",
+        "itemProps": {
+          "type": "internal",
+          // "href": "/marcas/trend",
+          "noFollow": false,
+          "tagTitle": "Fotoprotector",
+          "text": "Fotoprotector"
+        }
+      }
+    },
+    "menu#submenu-marcas1a": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "header-submenu-column",
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/fotoprotector",
+              "noFollow": false,
+              "tagTitle": "Skinpro",
+              "text": "Skinpro"
+            }
+          }
+          // {
+          //   "type": "custom",
+          //   "iconId": null,
+          //   "highlight": false,
+          //   "blockClass": "header-menu-item",
+          //   "itemProps": {
+          //     "type": "internal",
+          //     "href": "/marcas/trend",
+          //     "noFollow": false,
+          //     "tagTitle": "Soft",
+          //     "text": "Trend"
+          //   }
+          // },
+          // {
+          //   "type": "custom",
+          //   "iconId": null,
+          //   "highlight": false,
+          //   "blockClass": "header-menu-item",
+          //   "itemProps": {
+          //     "type": "internal",
+          //     "href": "/marcas/trend",
+          //     "noFollow": false,
+          //     "tagTitle": "Natural",
+          //     "text": "Soft"
+          //   }
+          // },
+          // {
+          //   "type": "custom",
+          //   "iconId": null,
+          //   "highlight": false,
+          //   "blockClass": "header-menu-item",
+          //   "itemProps": {
+          //     "type": "internal",
+          //     "href": "/marcas/trend",
+          //     "noFollow": false,
+          //     "tagTitle": "Classic",
+          //     "text": "Essential"
+          //   }
+          // }
+        ]
+      }
+    },
+    "menu-item#submenu-marcas1b": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-submenu-title",
+        "itemProps": {
+          "type": "internal",
+          // "href": "/marcas/essentials",
+          "noFollow": false,
+          "tagTitle": "Antitranspirante",
+          "text": "Antitranspirante"
+        }
+      }
+    },
+    "menu#submenu-marcas1b": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "header-submenu-column",
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/antitranspirante",
+              "noFollow": false,
+              "tagTitle": "Skindry",
+              "text": "Skindry"
+            }
+          }
+          // {
+          //   "type": "custom",
+          //   "iconId": null,
+          //   "highlight": false,
+          //   "blockClass": "header-menu-item",
+          //   "itemProps": {
+          //     "type": "internal",
+          //     "href": "/marcas/essentials",
+          //     "noFollow": false,
+          //     "tagTitle": "Soft",
+          //     "text": "Soft"
+          //   }
+          // },
+          // {
+          //   "type": "custom",
+          //   "iconId": null,
+          //   "highlight": false,
+          //   "blockClass": "header-menu-item",
+          //   "itemProps": {
+          //     "type": "internal",
+          //     "href": "/marcas/essentials",
+          //     "noFollow": false,
+          //     "tagTitle": "Natural",
+          //     "text": "Essential"
+          //   }
+          // }
+          // {
+          //   "type": "custom",
+          //   "iconId": null,
+          //   "highlight": false,
+          //   "blockClass": "header-menu-item",
+          //   "itemProps": {
+          //     "type": "internal",
+          //     "href": "/marcas/essentials",
+          //     "noFollow": false,
+          //     "tagTitle": "Classic",
+          //     "text": "Classic"
+          //   }
+          // }
+        ]
+      }
+    },
+    "menu-item#submenu-marcas1c": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-submenu-title",
+        "itemProps": {
+          "type": "internal",
+          // "href": "/marcas/nature",
+          "noFollow": false,
+          "tagTitle": "Cicatrizante",
+          "text": "Cicatrizante"
+        }
+      }
+    },
+    "menu#submenu-marcas1c": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "header-submenu-column",
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/cicatrizante",
+              "noFollow": false,
+              "tagTitle": "Debrisan",
+              "text": "Debrisan"
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/cicatrizante",
+              "noFollow": false,
+              "tagTitle": "Cicafarm",
+              "text": "Cicafarm  "
+            }
+          }
+          // {
+          //   "type": "custom",
+          //   "iconId": null,
+          //   "highlight": false,
+          //   "blockClass": "header-menu-item",
+          //   "itemProps": {
+          //     "type": "internal",
+          //     "href": "/marcas/essentials",
+          //     "noFollow": false,
+          //     "tagTitle": "Classic",
+          //     "text": "Classic"
+          //   }
+          // }
+        ]
+      }
+    },
+    "menu-item#submenu-marcas1d": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-submenu-title",
+        "itemProps": {
+          "type": "internal",
+          // "href": "/marcas/heritage",
+          "noFollow": false,
+          "tagTitle": "Antioxidante",
+          "text": "Antioxidante"
+        }
+      }
+    },
+    "menu#submenu-marcas1d": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "header-submenu-column",
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/antioxidante",
+              "noFollow": false,
+              "tagTitle": "Sodimel",
+              "text": "Sodimel"
+            }
+          }
+          // {
+          //   "type": "custom",
+          //   "iconId": null,
+          //   "highlight": false,
+          //   "blockClass": "header-menu-item",
+          //   "itemProps": {
+          //     "type": "internal",
+          //     "href": "/marcas/essentials",
+          //     "noFollow": false,
+          //     "tagTitle": "Natural",
+          //     "text": "Natural"
+          //   }
+          // }
+          // {
+          //   "type": "custom",
+          //   "iconId": null,
+          //   "highlight": false,
+          //   "blockClass": "header-menu-item",
+          //   "itemProps": {
+          //     "type": "internal",
+          //     "href": "/marcas/essentials",
+          //     "noFollow": false,
+          //     "tagTitle": "Natural",
+          //     "text": "Natural"
+          //   }
+          // },
+          // {
+          //   "type": "custom",
+          //   "iconId": null,
+          //   "highlight": false,
+          //   "blockClass": "header-menu-item",
+          //   "itemProps": {
+          //     "type": "internal",
+          //     "href": "/marcas/essentials",
+          //     "noFollow": false,
+          //     "tagTitle": "Classic",
+          //     "text": "Classic"
+          //   }
+          // }
+        ]
+      }
+    },
+    "menu-item#submenu-marcas1e": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-submenu-title",
+        "itemProps": {
+          "type": "internal",
+          // "href": "/marcas/unicas",
+          "noFollow": false,
+          "tagTitle": "Anticaída ",
+          "text": "Anticaída "
+        }
+      }
+    },
+    "menu#submenu-marcas1e": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "header-submenu-column",
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/anticaida",
+              "noFollow": false,
+              "tagTitle": "Anacastel",
+              "text": "Anacastel"
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/anticaida",
+              "noFollow": false,
+              "tagTitle": "Alostet",
+              "text": "Alostet"
+            }
+          }
+        ]
+      }
+    },
+    "menu-item#submenu-marcas1f": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-submenu-title",
+        "itemProps": {
+          "type": "internal",
+          // "href": "/marcas/accesorios",
+          "noFollow": false,
+          "tagTitle": "Antiacné",
+          "text": "Antiacné"
+        }
+      }
+    },
+    "menu#submenu-marcas1f": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "header-submenu-column",
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/antiacne",
+              "noFollow": false,
+              "tagTitle": "Bpollen",
+              "text": "Bpollen"
+            }
+          }
+          // {
+          //   "type": "custom",
+          //   "iconId": null,
+          //   "highlight": false,
+          //   "blockClass": "header-menu-item",
+          //   "itemProps": {
+          //     "type": "internal",
+          //     "href": "/marcas/accesorios",
+          //     "noFollow": false,
+          //     "tagTitle": "Felpudos",
+          //     "text": "Felpudos"
+          //   }
+          // },
+          // {
+          //   "type": "custom",
+          //   "iconId": null,
+          //   "highlight": false,
+          //   "blockClass": "header-menu-item",
+          //   "itemProps": {
+          //     "type": "internal",
+          //     "href": "/marcas/accesorios",
+          //     "noFollow": false,
+          //     "tagTitle": "Bajo escritorios",
+          //     "text": "Bajo escritorios"
+          //   }
+          // }
+        ]
+      }
+    },
+    "menu-item#submenu-marcas1g": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-submenu-title",
+        "itemProps": {
+          "type": "internal",
+          // "href": "/marcas/entrada",
+          "noFollow": false,
+          "tagTitle": "Antiedad",
+          "text": "Antiedad"
+        }
+      }
+    },
+    "menu#submenu-marcas1g": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "header-submenu-column",
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/antiedad",
+              "noFollow": false,
+              "tagTitle": "Ácido Hialurónico",
+              "text": "Ácido Hialurónico"
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/antiedad",
+              "noFollow": false,
+              "tagTitle": "Optigel",
+              "text": "Optigel"
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/antiedad",
+              "noFollow": false,
+              "tagTitle": "PMC",
+              "text": "PMC"
+            }
+          }
+        ]
+      }
+    },
+    "menu-item#submenu-marcas1h": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-submenu-title",
+        "itemProps": {
+          "type": "internal",
+          // "href": "/marcas/cocina",
+          "noFollow": false,
+          "tagTitle": "Despigmentante",
+          "text": "Despigmentante"
+        }
+      }
+    },
+    "menu#submenu-marcas1h": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "header-submenu-column",
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/despigmentante",
+              "noFollow": false,
+              "tagTitle": "Meladermic",
+              "text": "Meladermic"
+            }
+          }
+        ]
+      }
+    },
+    "menu-item#submenu-marcas1i": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-submenu-title",
+        "itemProps": {
+          "type": "internal",
+          // "href": "/marcas/cocina",
+          "noFollow": false,
+          "tagTitle": "Humectante",
+          "text": "Humectante"
+        }
+      }
+    },
+    "menu#submenu-marcas1i": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "header-submenu-column",
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/humectante",
+              "noFollow": false,
+              "tagTitle": "Dermatopic",
+              "text": "Dermatopic"
+            }
+          }
+        ]
+      }
+    },
+    "menu#submenu-marcas-ver-todo": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": ["header-submenu-column","header-submenu-ver-todo"],
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/marcas",
+              "noFollow": false,
+              "tagTitle": "Ver todo",
+              "text": "Ver todo"
+            }
+          }
+        ]
+      }
+    },
+    "menu#submenu-fijo-mobile-bano": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": ["header-submenu-column", "header-submenu-column-fijo"],
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/marcas/unicas",
+              "noFollow": false,
+              "tagTitle": "Baño",
+              "text": "Baño"
+            }
+          }
+        ]
+      }
+    },
+    "menu#submenu-fijo-mobile-ducha": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": ["header-submenu-column", "header-submenu-column-fijo"],
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/marcas/unicas",
+              "noFollow": false,
+              "tagTitle": "Ducha",
+              "text": "Ducha"
+            }
+          }
+        ]
+      }
+    },
+    "menu#submenu-fijo-mobile-entrada": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": ["header-submenu-column", "header-submenu-column-fijo"],
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/marcas/unicas",
+              "noFollow": false,
+              "tagTitle": "Entrada",
+              "text": "Entrada"
+            }
+          }
+        ]
+      }
+    },
+    "menu#submenu-fijo-mobile-cocina": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": ["header-submenu-column", "header-submenu-column-fijo"],
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/marcas/unicas",
+              "noFollow": false,
+              "tagTitle": "Cocina",
+              "text": "Cocina"
+            }
+          }
+        ]
+      }
+    }
+  }
+  

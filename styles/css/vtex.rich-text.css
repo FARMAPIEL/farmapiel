@@ -965,3 +965,7 @@
     margin-left: 1rem;
   }
 }
+
+.paragraph--header-title {
+  margin: 0;
+}

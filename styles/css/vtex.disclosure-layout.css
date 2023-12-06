@@ -20,4 +20,76 @@
   transform: rotate(-90deg);
  }
 
+ .content--visible {
+  padding: 0 2rem;
+}
 
+.trigger {
+  background: transparent;
+  border: none;
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .trigger {
+    padding: 1.2rem 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #F3F7F9;
+  }
+  .trigger :global(.vtex-rich-text-0-x-paragraph--footer-title) {
+    font-size: 15px;
+  }
+}
+.trigger--visible {
+  border-bottom: 1px solid #F3F7F9 !important;
+}
+.trigger--visible :global(.vtex-rich-text-0-x-paragraph--footer-title) {
+  font-family: "DM Sans";
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.trigger--header-submenu-alfombras {
+  border-bottom: 1px solid #F3F7F9 !important;
+}
+
+.content--about-us-mobile :global(.vtex-rich-text-0-x-container--footer-title),
+.content--contact-mobile :global(.vtex-rich-text-0-x-container--footer-title) {
+  display: none;
+}
+.content--about-us-mobile :global(.vtex-flex-layout-0-x-flexRow--arrepentimiento-container),
+.content--contact-mobile :global(.vtex-flex-layout-0-x-flexRow--arrepentimiento-container) {
+  display: none;
+}
+
+:global(.vtex-menu-2-x-menuContainer) .trigger {
+  padding: 1.5rem 0 !important;
+  border-top: 0;
+}
+:global(.vtex-menu-2-x-menuContainer) .trigger :global(.vtex-store-components-3-x-imageElement) {
+  margin-right: 6px;
+  transform: rotate(90deg);
+}
+:global(.vtex-menu-2-x-menuContainer) .trigger--visible :global(.vtex-store-components-3-x-imageElement) {
+  transform: rotate(-90deg);
+}
+@media only screen and (max-width: 600px) {
+  :global(.vtex-menu-2-x-menuContainer) .trigger {
+    padding: 2rem 0;
+  }
+}
+:global(.vtex-menu-2-x-menuContainer) .content--visible {
+  padding: 0;
+}
+
+.trigger--dis-principal--visible :global(.vtex-store-components-3-x-imageElement) {
+  display: none;
+}
+
+:global(.vtex-menu-2-x-menuContainer) .trigger--visible {
+  margin-left: 0rem !important;
+}
+:global(.vtex-menu-2-x-menuContainer) .trigger--visible :global(.vtex-rich-text-0-x-paragraph--header-title) {
+  font-family: "DM Sans" !important;
+}

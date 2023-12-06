@@ -1,0 +1,999 @@
+{
+    "menu#categories-menu": {
+        "props": {
+        "showAllDepartments": true,
+        "showSubcategories": true,
+        "menuDisposition": "center",
+        "departments": [],
+        "blockClass": "categories-menu"
+        },
+        "children": [
+        "menu-item#marcas",
+        // "menu-item#productos",
+        "menu-item#especializados",
+        "menu-item#acerca"
+        ]
+    },
+    "menu-item#marcas": {
+        "blocks": ["submenu#marcas"],
+        "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-menu-title",
+        "itemProps": {
+            "type": "internal",
+            "href": "/marcas",
+            "noFollow": false,
+            "tagTitle": "Marcas",
+            "text": "Marcas"
+        }
+        }
+    },
+    "menu-item#productos": {
+        "blocks": ["submenu#productos"],
+        "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-menu-title",
+        "itemProps": {
+            "type": "internal",
+            "href": "/productos",
+            "noFollow": false,
+            "tagTitle": "Productos",
+            "text": "Productos"
+        }
+        }
+    },
+    "menu-item#especializados": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-menu-title",
+            "itemProps": {
+            "type": "internal",
+            "href": "/productos",
+            "noFollow": false,
+            "tagTitle": "Productos especializados",
+            "text": "Productos especializados"
+            }
+        }
+        },
+        "menu-item#acerca": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header-menu-title",
+            "itemProps": {
+            "type": "internal",
+            "href": "/acerca",
+            "noFollow": false,
+            "tagTitle": "Acerca de nosotros",
+            "text": "Acerca de nosotros"
+            }
+        }
+    },
+    "disclosure-layout#submenu-especializados": {
+        "children": [
+            "disclosure-trigger#submenu-especializados",
+            "disclosure-content#submenu-especializados"
+        ]
+    },
+    "disclosure-trigger#submenu-especializados": {
+        "children": [
+            "rich-text#submenu-especializados",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass":"dis-principal"
+        }
+    },
+    "rich-text#submenu-especializados": {
+        "props": {
+            "text": "Productos Especializados",
+            "blockClass": ["footer-title", "header-title"]
+        }
+    },
+    "disclosure-content#submenu-especializados": {
+        "children": [
+            "menu#submenu-especializados-ver-todo"
+        ],
+        "props": {
+            "blockClass": "submenu-marcas-mobile"
+        }
+    },
+    "menu#submenu-especializados-ver-todo": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": ["header-submenu-column","header-submenu-ver-todo"],
+          "items": [
+            {
+              "type": "custom",
+              "iconId": null,
+              "highlight": false,
+              "blockClass": "header-menu-item",
+              "itemProps": {
+                "type": "internal",
+                "href": "/especializados",
+                "noFollow": false,
+                "tagTitle": "Ver todo",
+                "text": "Ver todo"
+              }
+            }
+          ]
+        }
+      },
+
+    "disclosure-layout#submenu-acerca": {
+        "children": [
+            "disclosure-trigger#submenu-acerca"
+            // "disclosure-content#submenu-acerca"
+        ]
+    },
+    "disclosure-trigger#submenu-acerca": {
+        "children": [
+            "rich-text#submenu-acerca",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass":"dis-principal"
+        }
+    },
+    "rich-text#submenu-acerca": {
+        "props": {
+            "text": "Acerca de nosotros",
+            "blockClass": ["footer-title", "header-title"]
+        }
+    },
+    "disclosure-content#submenu-acerca": {
+        "children": [
+            "menu#submenu-acerca-ver-todo"
+        ],
+        "props": {
+            "blockClass": "submenu-marcas-mobile"
+        }
+    },
+    "menu#submenu-acerca-ver-todo": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": ["header-submenu-column","header-submenu-ver-todo"],
+          "items": [
+            {
+              "type": "custom",
+              "iconId": null,
+              "highlight": false,
+              "blockClass": "header-menu-item",
+              "itemProps": {
+                "type": "internal",
+                "href": "/acerca",
+                "noFollow": false,
+                "tagTitle": "Ver todo",
+                "text": "Ver todo"
+              }
+            }
+          ]
+        }
+      },
+     "disclosure-layout#submenu-marcas": {
+        "children": [
+            "disclosure-trigger#submenu-marcas",
+            "disclosure-content#submenu-marcas"
+        ]
+    },
+    "disclosure-trigger#submenu-marcas": {
+        "children": [
+            "rich-text#submenu-marcas",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass":"dis-principal"
+        }
+    },
+    "disclosure-content#submenu-marcas": {
+        "children": [
+            "disclosure-layout#submenu-marcas1",
+            "disclosure-layout#submenu-marcas2",
+            "disclosure-layout#submenu-marcas4",
+            "disclosure-layout#submenu-marcas3",
+            "disclosure-layout#submenu-marcas5",
+            // "menu#submenu-fijo-mobile-bano",
+            // "menu#submenu-fijo-mobile-ducha",
+            // "menu#submenu-fijo-mobile-entrada",
+            // "menu#submenu-fijo-mobile-cocina",
+            // "disclosure-layout#submenu-marcas6",
+            "menu#submenu-marcas-ver-todo"
+            // "flex-layout.col#submenu-marcas-2",
+            // "flex-layout.col#submenu-marcas-3"
+        ],
+        "props": {
+            "blockClass": "submenu-marcas-mobile"
+        }
+    },
+    "rich-text#submenu-marcas": {
+        "props": {
+            "text": "Marcas",
+            "blockClass": ["footer-title", "header-title"]
+        }
+    },
+
+
+    "flex-layout.row#submenu-marcas1": {
+        "children": [
+          "flex-layout.col#submenu-marcas-1a"
+        ],
+        "props": {
+          "blockClass": "header-submenu",
+          "fullWidth": true,
+          "colSizing": "auto"
+        }
+      },
+
+    "disclosure-layout#submenu-marcas1": {
+        "children": [
+            "disclosure-trigger#submenu-marcas1",
+            "disclosure-content#submenu-marcas1"
+        ]
+    },
+    "disclosure-trigger#submenu-marcas1": {
+        "children": [
+            "rich-text#submenu-marcas1",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass": "header-submenu-marcas"
+        }
+    },
+    "disclosure-content#submenu-marcas1": {
+        "children": [
+            "flex-layout.row#submenu-marcas1"
+        ],
+        "props": {
+            "blockClass": "submenu-marcas-mobile"
+        }
+    },
+    "rich-text#submenu-marcas1": {
+        "props": {
+            "text": "Fotoprotector",
+            "blockClass": ["footer-title", "footer-title-marcas", "header-title"]
+        }
+    },
+    "flex-layout.row#submenu-marcas2": {
+        "children": [
+          "flex-layout.col#submenu-marcas-1b"
+        ],
+        "props": {
+          "blockClass": "header-submenu",
+          "fullWidth": true,
+          "colSizing": "auto"
+        }
+      },
+    "disclosure-layout#submenu-marcas2": {
+        "children": [
+            "disclosure-trigger#submenu-marcas2",
+            "disclosure-content#submenu-marcas2"
+        ]
+    },
+    "disclosure-trigger#submenu-marcas2": {
+        "children": [
+            "rich-text#submenu-marcas2",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass": "header-submenu-marcas"
+        }
+    },
+    "disclosure-content#submenu-marcas2": {
+        "children": [
+            "flex-layout.row#submenu-marcas2"
+        ],
+        "props": {
+            "blockClass": "submenu-marcas-mobile"
+        }
+    },
+    "rich-text#submenu-marcas2": {
+        "props": {
+            "text": "Antitranspirante",
+            "blockClass": ["footer-title", "footer-title-marcas", "header-title"]
+        }
+    },
+    "flex-layout.row#submenu-marcas3": {
+        "children": [
+          "flex-layout.col#submenu-marcas-1c"
+        ],
+        "props": {
+          "blockClass": "header-submenu",
+          "fullWidth": true,
+          "colSizing": "auto"
+        }
+      },
+    "disclosure-layout#submenu-marcas3": {
+        "children": [
+            "disclosure-trigger#submenu-marcas3",
+            "disclosure-content#submenu-marcas3"
+        ]
+    },
+    "disclosure-trigger#submenu-marcas3": {
+        "children": [
+            "rich-text#submenu-marcas3",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass": "header-submenu-marcas"
+        }
+    },
+    "disclosure-content#submenu-marcas3": {
+        "children": [
+            "flex-layout.row#submenu-marcas3"
+        ],
+        "props": {
+            "blockClass": "submenu-marcas-mobile"
+        }
+    },
+    "rich-text#submenu-marcas3": {
+        "props": {
+            "text": "Cicatrizante",
+            "blockClass": ["footer-title", "footer-title-marcas", "header-title"]
+        }
+    },
+    "flex-layout.row#submenu-marcas4": {
+        "children": [
+          "flex-layout.col#submenu-marcas-1d"
+        ],
+        "props": {
+          "blockClass": "header-submenu",
+          "fullWidth": true,
+          "colSizing": "auto"
+        }
+      },
+    "disclosure-layout#submenu-marcas4": {
+        "children": [
+            "disclosure-trigger#submenu-marcas4",
+            "disclosure-content#submenu-marcas4"
+        ]
+    },
+    "disclosure-trigger#submenu-marcas4": {
+        "children": [
+            "rich-text#submenu-marcas4",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass": "header-submenu-marcas"
+        }
+    },
+    "disclosure-content#submenu-marcas4": {
+        "children": [
+            "flex-layout.row#submenu-marcas4"
+        ],
+        "props": {
+            "blockClass": "submenu-marcas-mobile"
+        }
+    },
+    "rich-text#submenu-marcas4": {
+        "props": {
+            "text": "Antioxidante",
+            "blockClass": ["footer-title", "footer-title-marcas", "header-title"]
+        }
+    },
+    "flex-layout.row#submenu-marcas5": {
+        "children": [
+          "flex-layout.col#submenu-marcas-1e"
+        ],
+        "props": {
+          "blockClass": "header-submenu",
+          "fullWidth": true,
+          "colSizing": "auto"
+        }
+      },
+    "disclosure-layout#submenu-marcas5": {
+        "children": [
+            "disclosure-trigger#submenu-marcas5",
+            "disclosure-content#submenu-marcas5"
+        ]
+    },
+    "disclosure-trigger#submenu-marcas5": {
+        "children": [
+            "rich-text#submenu-marcas5",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass": "header-submenu-marcas"
+        }
+    },
+    "disclosure-content#submenu-marcas5": {
+        "children": [
+            "flex-layout.row#submenu-marcas5"
+        ],
+        "props": {
+            "blockClass": "submenu-marcas-mobile"
+        }
+    },
+    "rich-text#submenu-marcas5": {
+        "props": {
+            "text": "Anticaída ",
+            "blockClass": ["footer-title", "footer-title-marcas", "header-title"]
+        }
+    },
+    "flex-layout.row#submenu-marcas6": {
+        "children": [
+          "flex-layout.col#submenu-marcas-1f"
+        ],
+        "props": {
+          "blockClass": "header-submenu",
+          "fullWidth": true,
+          "colSizing": "auto"
+        }
+      },
+    "disclosure-layout#submenu-marcas6": {
+        "children": [
+            "disclosure-trigger#submenu-marcas6",
+            "disclosure-content#submenu-marcas6"
+        ]
+    },
+    "disclosure-trigger#submenu-marcas6": {
+        "children": [
+            "rich-text#submenu-marcas6",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass": "header-submenu-marcas"
+        }
+    },
+    "disclosure-content#submenu-marcas6": {
+        "children": [
+            "flex-layout.row#submenu-marcas6"
+        ],
+        "props": {
+            "blockClass": "submenu-marcas-mobile"
+        }
+    },
+    "rich-text#submenu-marcas6": {
+        "props": {
+            "text": "Antiacné",
+            "blockClass": ["footer-title", "footer-title-marcas", "header-title"]
+        }
+    },
+    "flex-layout.row#submenu-marcas7": {
+        "children": [
+          "flex-layout.col#submenu-marcas-1f"
+        ],
+        "props": {
+          "blockClass": "header-submenu",
+          "fullWidth": true,
+          "colSizing": "auto"
+        }
+      },
+    "disclosure-layout#submenu-marcas7": {
+        "children": [
+            "disclosure-trigger#submenu-marcas7",
+            "disclosure-content#submenu-marcas7"
+        ]
+    },
+    "disclosure-trigger#submenu-marcas7": {
+        "children": [
+            "rich-text#submenu-marcas7",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass": "header-submenu-marcas"
+        }
+    },
+    "disclosure-content#submenu-marcas7": {
+        "children": [
+            "flex-layout.row#submenu-marcas7"
+        ],
+        "props": {
+            "blockClass": "submenu-marcas-mobile"
+        }
+    },
+    "rich-text#submenu-marcas7": {
+        "props": {
+            "text": "Antiedad",
+            "blockClass": ["footer-title", "footer-title-marcas", "header-title"]
+        }
+    },
+    "flex-layout.row#submenu-marcas8": {
+        "children": [
+          "flex-layout.col#submenu-marcas-1h"
+        ],
+        "props": {
+          "blockClass": "header-submenu",
+          "fullWidth": true,
+          "colSizing": "auto"
+        }
+      },
+    "disclosure-layout#submenu-marcas8": {
+        "children": [
+            "disclosure-trigger#submenu-marcas8",
+            "disclosure-content#submenu-marcas8"
+        ]
+    },
+    "disclosure-trigger#submenu-marcas8": {
+        "children": [
+            "rich-text#submenu-marcas8",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass": "header-submenu-marcas"
+        }
+    },
+    "disclosure-content#submenu-marcas8": {
+        "children": [
+            "flex-layout.row#submenu-marcas8"
+        ],
+        "props": {
+            "blockClass": "submenu-marcas-mobile"
+        }
+    },
+    "rich-text#submenu-marcas8": {
+        "props": {
+            "text": "Despigmentante",
+            "blockClass": ["footer-title", "footer-title-marcas", "header-title"]
+        }
+    },
+    "flex-layout.row#submenu-marcas9": {
+        "children": [
+          "flex-layout.col#submenu-marcas-1i"
+        ],
+        "props": {
+          "blockClass": "header-submenu",
+          "fullWidth": true,
+          "colSizing": "auto"
+        }
+      },
+    "disclosure-layout#submenu-marcas9": {
+        "children": [
+            "disclosure-trigger#submenu-marcas9",
+            "disclosure-content#submenu-marcas9"
+        ]
+    },
+    "disclosure-trigger#submenu-marcas9": {
+        "children": [
+            "rich-text#submenu-marcas9",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass": "header-submenu-marcas"
+        }
+    },
+    "disclosure-content#submenu-marcas9": {
+        "children": [
+            "flex-layout.row#submenu-marcas9"
+        ],
+        "props": {
+            "blockClass": "submenu-marcas-mobile"
+        }
+    },
+    "rich-text#submenu-marcas9": {
+        "props": {
+            "text": "Humectante",
+            "blockClass": ["footer-title", "footer-title-marcas", "header-title"]
+        }
+    },
+
+    //productos
+
+    "disclosure-layout#submenu-productos": {
+        "children": [
+            "disclosure-trigger#submenu-productos",
+            "disclosure-content#submenu-productos"
+        ]
+    },
+    "disclosure-trigger#submenu-productos": {
+        "children": [
+            "rich-text#submenu-productos",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass":"dis-principal"
+        }
+    },
+    "rich-text#submenu-productos": {
+        "props": {
+            "text": "Productos",
+            "blockClass": ["footer-title", "header-title"]
+        }
+    },
+    "disclosure-content#submenu-productos": {
+        "children": [
+            "disclosure-layout#submenu-productos1",
+            "disclosure-layout#submenu-productos2",
+            "disclosure-layout#submenu-productos4",
+            "disclosure-layout#submenu-productos3",
+            "disclosure-layout#submenu-productos5",
+            // "menu#submenu-fijo-mobile-bano",
+            // "menu#submenu-fijo-mobile-ducha",
+            // "menu#submenu-fijo-mobile-entrada",
+            // "menu#submenu-fijo-mobile-cocina",
+            // "disclosure-layout#submenu-productos6",
+            "menu#submenu-productos-ver-todo"
+            // "flex-layout.col#submenu-productos-2",
+            // "flex-layout.col#submenu-productos-3"
+        ],
+        "props": {
+            "blockClass": "submenu-productos-mobile"
+        }
+    },
+
+    "flex-layout.row#submenu-productos1": {
+        "children": [
+          "flex-layout.col#submenu-productos-1a"
+        ],
+        "props": {
+          "blockClass": "header-submenu",
+          "fullWidth": true,
+          "colSizing": "auto"
+        }
+      },
+    
+    "disclosure-layout#submenu-productos1": {
+        "children": [
+            "disclosure-trigger#submenu-productos1",
+            "disclosure-content#submenu-productos1"
+        ]
+    },
+    "disclosure-trigger#submenu-productos1": {
+        "children": [
+            "rich-text#submenu-productos1",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass": "header-submenu-productos"
+        }
+    },
+    "disclosure-content#submenu-productos1": {
+        "children": [
+            "flex-layout.row#submenu-productos1"
+        ],
+        "props": {
+            "blockClass": "submenu-productos-mobile"
+        }
+    },
+    "rich-text#submenu-productos1": {
+        "props": {
+            "text": "Fotoprotector",
+            "blockClass": ["footer-title", "footer-title-productos", "header-title"]
+        }
+    },
+    "flex-layout.row#submenu-productos2": {
+        "children": [
+          "flex-layout.col#submenu-productos-1b"
+        ],
+        "props": {
+          "blockClass": "header-submenu",
+          "fullWidth": true,
+          "colSizing": "auto"
+        }
+      },
+    "disclosure-layout#submenu-productos2": {
+        "children": [
+            "disclosure-trigger#submenu-productos2",
+            "disclosure-content#submenu-productos2"
+        ]
+    },
+    "disclosure-trigger#submenu-productos2": {
+        "children": [
+            "rich-text#submenu-productos2",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass": "header-submenu-productos"
+        }
+    },
+    "disclosure-content#submenu-productos2": {
+        "children": [
+            "flex-layout.row#submenu-productos2"
+        ],
+        "props": {
+            "blockClass": "submenu-productos-mobile"
+        }
+    },
+    "rich-text#submenu-productos2": {
+        "props": {
+            "text": "Antitranspirante",
+            "blockClass": ["footer-title", "footer-title-productos", "header-title"]
+        }
+    },
+    "flex-layout.row#submenu-productos3": {
+        "children": [
+          "flex-layout.col#submenu-productos-1c"
+        ],
+        "props": {
+          "blockClass": "header-submenu",
+          "fullWidth": true,
+          "colSizing": "auto"
+        }
+      },
+    "disclosure-layout#submenu-productos3": {
+        "children": [
+            "disclosure-trigger#submenu-productos3",
+            "disclosure-content#submenu-productos3"
+        ]
+    },
+    "disclosure-trigger#submenu-productos3": {
+        "children": [
+            "rich-text#submenu-productos3",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass": "header-submenu-productos"
+        }
+    },
+    "disclosure-content#submenu-productos3": {
+        "children": [
+            "flex-layout.row#submenu-productos3"
+        ],
+        "props": {
+            "blockClass": "submenu-productos-mobile"
+        }
+    },
+    "rich-text#submenu-productos3": {
+        "props": {
+            "text": "Cicatrizante",
+            "blockClass": ["footer-title", "footer-title-productos", "header-title"]
+        }
+    },
+    "flex-layout.row#submenu-productos4": {
+        "children": [
+          "flex-layout.col#submenu-productos-1d"
+        ],
+        "props": {
+          "blockClass": "header-submenu",
+          "fullWidth": true,
+          "colSizing": "auto"
+        }
+      },
+    "disclosure-layout#submenu-productos4": {
+        "children": [
+            "disclosure-trigger#submenu-productos4",
+            "disclosure-content#submenu-productos4"
+        ]
+    },
+    "disclosure-trigger#submenu-productos4": {
+        "children": [
+            "rich-text#submenu-productos4",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass": "header-submenu-productos"
+        }
+    },
+    "disclosure-content#submenu-productos4": {
+        "children": [
+            "flex-layout.row#submenu-productos4"
+        ],
+        "props": {
+            "blockClass": "submenu-productos-mobile"
+        }
+    },
+    "rich-text#submenu-productos4": {
+        "props": {
+            "text": "Antioxidante",
+            "blockClass": ["footer-title", "footer-title-productos", "header-title"]
+        }
+    },
+    "flex-layout.row#submenu-productos5": {
+        "children": [
+          "flex-layout.col#submenu-productos-1e"
+        ],
+        "props": {
+          "blockClass": "header-submenu",
+          "fullWidth": true,
+          "colSizing": "auto"
+        }
+      },
+    "disclosure-layout#submenu-productos5": {
+        "children": [
+            "disclosure-trigger#submenu-productos5",
+            "disclosure-content#submenu-productos5"
+        ]
+    },
+    "disclosure-trigger#submenu-productos5": {
+        "children": [
+            "rich-text#submenu-productos5",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass": "header-submenu-productos"
+        }
+    },
+    "disclosure-content#submenu-productos5": {
+        "children": [
+            "flex-layout.row#submenu-productos5"
+        ],
+        "props": {
+            "blockClass": "submenu-productos-mobile"
+        }
+    },
+    "rich-text#submenu-productos5": {
+        "props": {
+            "text": "Anticaída ",
+            "blockClass": ["footer-title", "footer-title-productos", "header-title"]
+        }
+    },
+    "flex-layout.row#submenu-productos6": {
+        "children": [
+          "flex-layout.col#submenu-productos-1f"
+        ],
+        "props": {
+          "blockClass": "header-submenu",
+          "fullWidth": true,
+          "colSizing": "auto"
+        }
+      },
+    "disclosure-layout#submenu-productos6": {
+        "children": [
+            "disclosure-trigger#submenu-productos6",
+            "disclosure-content#submenu-productos6"
+        ]
+    },
+    "disclosure-trigger#submenu-productos6": {
+        "children": [
+            "rich-text#submenu-productos6",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass": "header-submenu-productos"
+        }
+    },
+    "disclosure-content#submenu-productos6": {
+        "children": [
+            "flex-layout.row#submenu-productos6"
+        ],
+        "props": {
+            "blockClass": "submenu-productos-mobile"
+        }
+    },
+    "rich-text#submenu-productos6": {
+        "props": {
+            "text": "Antiacné",
+            "blockClass": ["footer-title", "footer-title-productos", "header-title"]
+        }
+    },
+    "flex-layout.row#submenu-productos7": {
+        "children": [
+          "flex-layout.col#submenu-productos-1f"
+        ],
+        "props": {
+          "blockClass": "header-submenu",
+          "fullWidth": true,
+          "colSizing": "auto"
+        }
+      },
+    "disclosure-layout#submenu-productos7": {
+        "children": [
+            "disclosure-trigger#submenu-productos7",
+            "disclosure-content#submenu-productos7"
+        ]
+    },
+    "disclosure-trigger#submenu-productos7": {
+        "children": [
+            "rich-text#submenu-productos7",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass": "header-submenu-productos"
+        }
+    },
+    "disclosure-content#submenu-productos7": {
+        "children": [
+            "flex-layout.row#submenu-productos7"
+        ],
+        "props": {
+            "blockClass": "submenu-productos-mobile"
+        }
+    },
+    "rich-text#submenu-productos7": {
+        "props": {
+            "text": "Antiedad",
+            "blockClass": ["footer-title", "footer-title-productos", "header-title"]
+        }
+    },
+    "flex-layout.row#submenu-productos8": {
+        "children": [
+          "flex-layout.col#submenu-productos-1h"
+        ],
+        "props": {
+          "blockClass": "header-submenu",
+          "fullWidth": true,
+          "colSizing": "auto"
+        }
+      },
+    "disclosure-layout#submenu-productos8": {
+        "children": [
+            "disclosure-trigger#submenu-productos8",
+            "disclosure-content#submenu-productos8"
+        ]
+    },
+    "disclosure-trigger#submenu-productos8": {
+        "children": [
+            "rich-text#submenu-productos8",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass": "header-submenu-productos"
+        }
+    },
+    "disclosure-content#submenu-productos8": {
+        "children": [
+            "flex-layout.row#submenu-productos8"
+        ],
+        "props": {
+            "blockClass": "submenu-productos-mobile"
+        }
+    },
+    "rich-text#submenu-productos8": {
+        "props": {
+            "text": "Despigmentante",
+            "blockClass": ["footer-title", "footer-title-productos", "header-title"]
+        }
+    },
+    "flex-layout.row#submenu-productos9": {
+        "children": [
+          "flex-layout.col#submenu-productos-1i"
+        ],
+        "props": {
+          "blockClass": "header-submenu",
+          "fullWidth": true,
+          "colSizing": "auto"
+        }
+      },
+    "disclosure-layout#submenu-productos9": {
+        "children": [
+            "disclosure-trigger#submenu-productos9",
+            "disclosure-content#submenu-productos9"
+        ]
+    },
+    "disclosure-trigger#submenu-productos9": {
+        "children": [
+            "rich-text#submenu-productos9",
+            "disclosure-state-indicator#header"
+        ],
+        "props": {
+            "animated": true,
+            "blockClass": "header-submenu-productos"
+        }
+    },
+    "disclosure-content#submenu-productos9": {
+        "children": [
+            "flex-layout.row#submenu-productos9"
+        ],
+        "props": {
+            "blockClass": "submenu-productos-mobile"
+        }
+    },
+    "rich-text#submenu-productos9": {
+        "props": {
+            "text": "Humectante",
+            "blockClass": ["footer-title", "footer-title-productos", "header-title"]
+        }
+    },
+    "flex-layout.col#submenu-productos-1-mobile-row": {
+        // "children" : ["image#whatsapp", "menu#submenu-productos-mobile"],
+        "props": {
+          "blockClass": [
+            "submenu-productos-1-rowcontent"
+        ],
+        "width": "100%"
+        }
+    }
+}

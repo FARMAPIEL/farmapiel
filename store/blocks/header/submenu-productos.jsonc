@@ -1,0 +1,987 @@
+{
+    "submenu#productos": {
+      "children": ["flex-layout.row#submenu-productos"],
+      "props": {
+        "width": "100%",
+          "blockClass": ["header-submenu-container", "header-submenu-productos"]
+      }
+    },
+    "flex-layout.row#submenu-productos": {
+      "children": [
+        "flex-layout.col#submenu-productos-1a",
+        "flex-layout.col#submenu-productos-1b",
+        "flex-layout.col#submenu-productos-1c",
+        "flex-layout.col#submenu-productos-1d",
+        "flex-layout.col#submenu-productos-1e",
+        "flex-layout.col#submenu-productos-1f",
+        "flex-layout.col#submenu-productos-1g",
+        "flex-layout.col#submenu-productos-1h",
+        "flex-layout.col#submenu-productos-1i"
+        // "flex-layout.col#submenu-productos-2",
+        // "flex-layout.col#submenu-productos-3"
+      ],
+      "props": {
+        "blockClass": "header-submenu",
+        "fullWidth": true,
+        "colSizing": "auto"
+      }
+    },
+    "flex-layout.col#submenu-productos-1a": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "10%"
+      },
+      "children": ["menu-item#submenu-productos1a", "menu#submenu-productos1a"]
+    },
+    "flex-layout.col#submenu-productos-1b": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "10%"
+      },
+      "children": ["menu-item#submenu-productos1b", "menu#submenu-productos1b"]
+    },
+    "flex-layout.col#submenu-productos-1c": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "10%"
+      },
+      "children": ["menu-item#submenu-productos1c", "menu#submenu-productos1c"]
+    },
+    "flex-layout.col#submenu-productos-1d": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "10%"
+      },
+      "children": ["menu-item#submenu-productos1d", "menu#submenu-productos1d"]
+    },
+    "flex-layout.col#submenu-productos-1e": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "10%"
+      },
+      "children": ["menu-item#submenu-productos1e", "menu#submenu-productos1e"]
+    },
+    "flex-layout.col#submenu-productos-1f": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "10%"
+      },
+      "children": ["menu-item#submenu-productos1f", "menu#submenu-productos1e"]
+    },
+    "flex-layout.col#submenu-productos-1g": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "10%"
+      },
+      "children": ["menu-item#submenu-productos1g", "menu#submenu-productos1g"]
+    },
+    "flex-layout.col#submenu-productos-1h": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "10%"
+      },
+      "children": ["menu-item#submenu-productos1h", "menu#submenu-productos1h"]
+    },
+    "flex-layout.col#submenu-productos-1i": {
+        "props": {
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "width": "10%"
+        },
+        "children": ["menu-item#submenu-productos1i", "menu#submenu-productos1i"]
+      },
+    "flex-layout.col#submenu-productos-2": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "20%",
+        "blockClass": ["submenu-image-container", "menu-productos-mm"]
+      },
+      "children": ["image#submenu-productos-2", "link#submenu-productos-2"]
+    },
+    "flex-layout.col#submenu-productos-3": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "width": "20%",
+        "blockClass": ["submenu-image-container", "menu-productos-mm"]
+      },
+      "children": ["image#submenu-productos-3", "link#submenu-productos-3"]
+    },
+    "image#submenu-productos-2": {
+      "props": {
+        "width": "238px",
+        "src": "assets/submenu-alfombras-1.png",
+        "link": "#",
+        "blockClass": ["menu-image-link"]
+      }
+    },
+    "image#submenu-productos-3": {
+      "props": {
+        "width": "238px",
+        "src": "assets/submenu-alfombras-2.png",
+        "link": "#",
+        "blockClass": ["menu-image-link"]
+      }
+    },
+    "link#submenu-productos-2": {
+      "props": {
+        "href": "#",
+        "label": "De baño",
+        "blockClass": ["menu-text-link"]
+      }
+    },
+    "link#submenu-productos-3": {
+      "props": {
+        "href": "#",
+        "label": "De habitación",
+        "blockClass": ["menu-text-link"]
+      }
+    },
+  
+    "menu-item#submenu-productos1a": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-submenu-title",
+        "itemProps": {
+          "type": "internal",
+        //   "href": "/productos/trend",
+          "noFollow": false,
+          "tagTitle": "Fotoprotector",
+          "text": "Fotoprotector"
+        }
+      }
+    },
+    "menu#submenu-productos1a": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "header-submenu-column",
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-skinpro-mineral-fps-50-fotoproteccion-con-color-50g-/p",
+              "noFollow": false,
+              "tagTitle": "Skinpro Mineral FPS 50+ ",
+              "text": "Skinpro Mineral FPS 50+ "
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-skinpro-max-fps-50-fotoproteccion-en-crema-60g/p",
+              "noFollow": false,
+              "tagTitle": "Skinpro Max FPS 50+ ",
+              "text": "Skinpro Max FPS 50+ "
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-skinpro-gel-fps-30-fotoproteccion-en-gel-60g/p",
+              "noFollow": false,
+              "tagTitle": "Skinpro Gel FPS 30",
+              "text": "Skinpro Gel FPS 30"
+            }
+          }
+        ]
+      }
+    },
+    "menu-item#submenu-productos1b": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-submenu-title",
+        "itemProps": {
+          "type": "internal",
+        //   "href": "/productos/essentials",
+          "noFollow": false,
+          "tagTitle": "Antitranspirante",
+          "text": "Antitranspirante"
+        }
+      }
+    },
+    "menu#submenu-productos1b": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "header-submenu-column",
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-skindry-antiperspirante-72h-cloruro-de-aluminio-20--35ml/p",
+              "noFollow": false,
+              "tagTitle": "Skindry - Antiperspirante 72h - 35ml",
+              "text": "Skindry - Antiperspirante 72h - 35ml"
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-skindry-antiperspirante-72h-cloruro-de-aluminio-20--20ml/p",
+              "noFollow": false,
+              "tagTitle": "Skindry Sensitive - Cloruro de Aluminio 6.210% - 35ml",
+              "text": "Skindry Sensitive - Cloruro de Aluminio 6.210% - 35ml"
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-skindry-antiperspirante-72h-cloruro-de-aluminio-20--20ml/p",
+              "noFollow": false,
+              "tagTitle": "Skindry - Antiperspirante 72h - 20ml",
+              "text": "Skindry - Antiperspirante 72h - 20ml"
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-skindry-sensitive-antiperspirante-48h-para-pieles-sensibles-cloruro-de-aluminio-6-25--20ml/p",
+              "noFollow": false,
+              "tagTitle": "Skindry Sensitive - Cloruro de Aluminio 6.210% - 20ml",
+              "text": "Skindry Sensitive - Cloruro de Aluminio 6.210% - 20ml"
+            }
+          }
+        ]
+      }
+    },
+    "menu-item#submenu-productos1c": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-submenu-title",
+        "itemProps": {
+          "type": "internal",
+        //   "href": "/productos/nature",
+          "noFollow": false,
+          "tagTitle": "Cizatrizante",
+          "text": "Cizatrizante"
+        }
+      }
+    },
+    "menu#submenu-productos1c": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "header-submenu-column",
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-debrisan-cicatrizante-heridas-abiertas-dextranomero-60g/p",
+              "noFollow": false,
+              "tagTitle": "Debrisan - Cicatrizante Heridas Abiertas - 60g",
+              "text": "Debrisan - Cicatrizante Heridas Abiertas - 60g"
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-cicafarm-quemaduras-crema-cicatrizante-oxido-de-zinc-100g/p",
+              "noFollow": false,
+              "tagTitle": "Cicafarm Quemaduras - Crema Cicatrizante ",
+              "text": "Cicafarm Quemaduras - Crema Cicatrizante "
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-cicafarm-k-crema-cicatrizante-centella-asiatica-30g-/p",
+              "noFollow": false,
+              "tagTitle": "Cicafarm K - Crema Cicatrizante ",
+              "text": "Cicafarm K - Crema Cicatrizante "
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-debrisan-cicatrizante-heridas-abiertas-dextranomero-25g/p",
+              "noFollow": false,
+              "tagTitle": "Debrisan - Cicatrizante Heridas Abiertas - 25g",
+              "text": "Debrisan - Cicatrizante Heridas Abiertas - 25g"
+            }
+          }
+        ]
+      }
+    },
+    "menu-item#submenu-productos1d": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-submenu-title",
+        "itemProps": {
+          "type": "internal",
+        //   "href": "/productos/heritage",
+          "noFollow": false,
+          "tagTitle": "Antioxidante",
+          "text": "Antioxidante"
+        }
+      }
+    },
+    "menu#submenu-productos1d": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "header-submenu-column",
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-sodimel-suero-facial-antioxidante-superoxido-dismutasa-30g/p",
+              "noFollow": false,
+              "tagTitle": "Sodimel - Suero Facial Antioxidante ",
+              "text": "Sodimel - Suero Facial Antioxidante "
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-sodimel-antioxidante-en-capsulas-superoxido-dismutasa-60-unidades/p",
+              "noFollow": false,
+              "tagTitle": "Sodimel - Antioxidante en Cápsulas - 60 uni ",
+              "text": "Sodimel - Antioxidante en Cápsulas - 60 uni "
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-sodimel-antioxidante-en-capsulas-speroxido-dismutasa-30-unidades/p",
+              "noFollow": false,
+              "tagTitle": "Sodimel - Antioxidante en Cápsulas - 30 uni ",
+              "text": "Sodimel - Antioxidante en Cápsulas - 30 uni "
+            }
+          }
+          // {
+          //   "type": "custom",
+          //   "iconId": null,
+          //   "highlight": false,
+          //   "blockClass": "header-menu-item",
+          //   "itemProps": {
+          //     "type": "internal",
+          //     "href": "/productos/essentials",
+          //     "noFollow": false,
+          //     "tagTitle": "Classic",
+          //     "text": "Classic"
+          //   }
+          // }
+        ]
+      }
+    },
+    "menu-item#submenu-productos1e": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-submenu-title",
+        "itemProps": {
+          "type": "internal",
+        //   "href": "/productos/unicas",
+          "noFollow": false,
+          "tagTitle": "Anticaída ",
+          "text": "Anticaída "
+        }
+      }
+    },
+    "menu#submenu-productos1e": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "header-submenu-column",
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-anacastel-minoxidil-2-tratamiento-anticaida-60ml/p",
+              "noFollow": false,
+              "tagTitle": "Anacastel Minoxidil 2%",
+              "text": "Anacastel Minoxidil 2%"
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-anacastel-minoxidil-5--morado-tratamiento-anticaida-60ml/p",
+              "noFollow": false,
+              "tagTitle": "Anacastel Minoxidil 10% Morado",
+              "text": "Anacastel Minoxidil 10% Morado"
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel---anacastel-minoxidil-5-morado-tratamiento-anticaida-2-unidades-60ml/p",
+              "noFollow": false,
+              "tagTitle": "Anacastel Minoxidil 10% Morado - 2 uni",
+              "text": "Anacastel Minoxidil 10% Morado - 2 uni"
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-minoxidil-5--unitario-azul-tratamiento-anticaida-60ml/p",
+              "noFollow": false,
+              "tagTitle": "Anacastel Minoxidil 10%",
+              "text": "Anacastel Minoxidil 10%"
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-minoxidil-5--tratamiento-anticaida-3-unidades-60ml/p",
+              "noFollow": false,
+              "tagTitle": "Anacastel Minoxidil 10% - 3 uni",
+              "text": "Anacastel Minoxidil 10% - 3 uni"
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-minoxidil-5--tratamiento-anticaida-6-unidades-60ml/p",
+              "noFollow": false,
+              "tagTitle": "Anacastel Minoxidil 10% - 6 uni",
+              "text": "Anacastel Minoxidil 10% - 6 uni"
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-alostet-shampoo-anticaida-hombre-aroma-clasico-400ml/p",
+              "noFollow": false,
+              "tagTitle": "Alostet - Shampoo Anticaída Hombre ",
+              "text": "Alostet - Shampoo Anticaída Hombre "
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-alostet-shampoo-anticaida-mujer-aroma-floral-400ml/p",
+              "noFollow": false,
+              "tagTitle": "Alostet - Shampoo Anticaída Mujer ",
+              "text": "Alostet - Shampoo Anticaída Mujer "
+            }
+          }
+        ]
+      }
+    },
+    "menu-item#submenu-productos1f": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-submenu-title",
+        "itemProps": {
+          "type": "internal",
+        //   "href": "/productos/accesorios",
+          "noFollow": false,
+          "tagTitle": "Antiacné",
+          "text": "Antiacné"
+        }
+      }
+    },
+    "menu#submenu-productos1f": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "header-submenu-column",
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-bpollen-peroxido-de-benzoilo-gel-2-5--60g/p",
+              "noFollow": false,
+              "tagTitle": "Bpollen - Peróxido de Benzoílo Gel 2.10%",
+              "text": "Bpollen - Peróxido de Benzoílo Gel 2.10%"
+            }
+          },
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/farmapiel-bpollen-peroxido-de-benzoilo-gel-5--60g/p",
+              "noFollow": false,
+              "tagTitle": "Bpollen - Peróxido de Benzoílo Gel 10% ",
+              "text": "Bpollen - Peróxido de Benzoílo Gel 10% "
+            }
+          }
+        //   {
+        //     "type": "custom",
+        //     "iconId": null,
+        //     "highlight": false,
+        //     "blockClass": "header-menu-item",
+        //     "itemProps": {
+        //       "type": "internal",
+        //       "href": "/productos/accesorios",
+        //       "noFollow": false,
+        //       "tagTitle": "Bajo escritorios",
+        //       "text": "Bajo escritorios"
+        //     }
+        //   }
+        ]
+      }
+    },
+    "menu-item#submenu-productos1g": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-submenu-title",
+        "itemProps": {
+          "type": "internal",
+        //   "href": "/productos/entrada",
+          "noFollow": false,
+          "tagTitle": "Antiedad",
+          "text": "Antiedad"
+        }
+      }
+    },
+    "menu#submenu-productos1g": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "header-submenu-column",
+          "items": [
+            {
+              "type": "custom",
+              "iconId": null,
+              "highlight": false,
+              "blockClass": "header-menu-item",
+              "itemProps": {
+                "type": "internal",
+                "href": "/farmapiel-serum-facial-acido-hialuronico2--30g/p",
+                "noFollow": false,
+                "tagTitle": "Sérum Facial Ácido Hialurónico 2%",
+                "text": "Sérum Facial Ácido Hialurónico 2%"
+              }
+            },
+            {
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "blockClass": "header-menu-item",
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/farmapiel-optigel-pen-contorno-ocular-extracto-de-te-verde-15g-/p",
+                  "noFollow": false,
+                  "tagTitle": "Optigel Pen - Contorno Ocular",
+                  "text": "Optigel Pen - Contorno Ocular"
+                }
+              },
+              {
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "blockClass": "header-menu-item",
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/farmapiel-optigel-contorno-ocular-extracto-de-te-verde-15g/p",
+                  "noFollow": false,
+                  "tagTitle": "Optigel Tarro - Contorno Ocular",
+                  "text": "Optigel Tarro - Contorno Ocular"
+                }
+              },
+              {
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "blockClass": "header-menu-item",
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/farmapiel-pmc-intelligent-cells-cream-45-crema-facial-antiedad-pieles-maduras-50g/p",
+                  "noFollow": false,
+                  "tagTitle": "PMC Intelligent Cells Cream 45+",
+                  "text": "PMC Intelligent Cells Cream 45+"
+                }
+              },
+              {
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "blockClass": "header-menu-item",
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/farmapiel-pmc-intelligent-cells-cream-45-crema-facial-antiedad-pieles-maduras-50g/p",
+                  "noFollow": false,
+                  "tagTitle": "PMC Biocellular Cream 30-45",
+                  "text": "PMC Biocellular Cream 30-45"
+                }
+              },
+              {
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "blockClass": "header-menu-item",
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/farmapiel-pmc-gel-contorno-ocular-45-contorno-ocular-antiedad-pieles-maduras-15g/p",
+                  "noFollow": false,
+                  "tagTitle": "PMC Gel Contorno Ocular 45+",
+                  "text": "PMC Gel Contorno Ocular 45+"
+                }
+              },
+              {
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "blockClass": "header-menu-item",
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/farmapiel-pmc-gel-contorno-ocular-30-45-contorno-ocular-antiedad-pieles-jovenes-15g/p",
+                  "noFollow": false,
+                  "tagTitle": "PMC Gel Contorno Ocular 30-45 ",
+                  "text": "PMC Gel Contorno Ocular 30-45 "
+                }
+              }
+          ]
+        }
+      },
+    "menu-item#submenu-productos1h": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "header-submenu-title",
+        "itemProps": {
+          "type": "internal",
+        //   "href": "/productos/cocina",
+          "noFollow": false,
+          "tagTitle": "Despigmentante",
+          "text": "Despigmentante"
+        }
+      }
+    },
+    "menu#submenu-productos1h": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "header-submenu-column",
+          "items": [
+            {
+              "type": "custom",
+              "iconId": null,
+              "highlight": false,
+              "blockClass": "header-menu-item",
+              "itemProps": {
+                "type": "internal",
+                "href": "/farmapiel-meladermic-total-fps-50-suero-despigmentante-con-fotoproteccion-alfa-arbutina-30g/p",
+                "noFollow": false,
+                "tagTitle": "Meladermic Total FPS 50+",
+                "text": "Meladermic Total FPS 50+"
+              }
+            },
+            {
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "blockClass": "header-menu-item",
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/farmapiel-meladermic-advanced-suero-despigmentante-aceite-de-semilla-de-arandano-56-monodosis/p",
+                  "noFollow": false,
+                  "tagTitle": "Meladermic Advanced - 56 monodosis",
+                  "text": "Meladermic Advanced - 56 monodosis"
+                }
+              },
+              {
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "blockClass": "header-menu-item",
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/farmapiel-meladermic-manos-y-cuerpo-crema-despigmentante-uva-ursi-acido-glicolico-150g/p",
+                  "noFollow": false,
+                  "tagTitle": "Meladermic Manos y Cuerpo",
+                  "text": "Meladermic Manos y Cuerpo"
+                }
+              },
+              {
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "blockClass": "header-menu-item",
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/farmapiel-meladermic-energy-crema-despigmentante-uva-ursi-vitamina-c-50g/p",
+                  "noFollow": false,
+                  "tagTitle": "Meladermic Energy ",
+                  "text": "Meladermic Energy "
+                }
+              },
+              {
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "blockClass": "header-menu-item",
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/farmapiel-meladermic-day-crema-despigmentante-uva-ursi-25g/p",
+                  "noFollow": false,
+                  "tagTitle": "Meladermic Day ",
+                  "text": "Meladermic Day "
+                }
+              },
+              {
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "blockClass": "header-menu-item",
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/farmapiel-meladermic-night-crema-despigmentante-uva-ursi-acido-lactico-25g/p",
+                  "noFollow": false,
+                  "tagTitle": "Meladermic Night",
+                  "text": "Meladermic Night"
+                }
+              }
+          ]
+        }
+      },
+    "menu-item#submenu-productos1i": {
+        "props": {
+          "type": "custom",
+          "highlight": false,
+          "blockClass": "header-submenu-title",
+          "itemProps": {
+            "type": "internal",
+            "href": "/productos/cocina",
+            "noFollow": false,
+            "tagTitle": "Cocina",
+            "text": "Cocina"
+          }
+        }
+      },
+      "menu#submenu-productos1i": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "header-submenu-column",
+          "items": [
+            {
+              "type": "custom",
+              "iconId": null,
+              "highlight": false,
+              "blockClass": "header-menu-item",
+              "itemProps": {
+                "type": "internal",
+                "href": "/farmapiel-dermatopic-crema-humectante-aceite-de-almendras-dulces-250g/p",
+                "noFollow": false,
+                "tagTitle": "Dermatopic - Crema Humectante 250 g",
+                "text": "Dermatopic - Crema Humectante 250 g"
+              }
+            },
+            {
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "blockClass": "header-menu-item",
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/farmapiel-dermatopic-crema-humectante-aceite-de-almendras-dulces-500g/p",
+                  "noFollow": false,
+                  "tagTitle": "Dermatopic - Crema Humectante 500 g",
+                  "text": "Dermatopic - Crema Humectante 500 g"
+                }
+              }
+          ]
+        }
+      },
+    "menu#submenu-productos-ver-todo": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": ["header-submenu-column","header-submenu-ver-todo"],
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/productos",
+              "noFollow": false,
+              "tagTitle": "Ver todo",
+              "text": "Ver todo"
+            }
+          }
+        ]
+      }
+    },
+    "menu#submenu-fijo-mobile-bano": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": ["header-submenu-column", "header-submenu-column-fijo"],
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/productos/unicas",
+              "noFollow": false,
+              "tagTitle": "Baño",
+              "text": "Baño"
+            }
+          }
+        ]
+      }
+    },
+    "menu#submenu-fijo-mobile-ducha": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": ["header-submenu-column", "header-submenu-column-fijo"],
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/productos/unicas",
+              "noFollow": false,
+              "tagTitle": "Ducha",
+              "text": "Ducha"
+            }
+          }
+        ]
+      }
+    },
+    "menu#submenu-fijo-mobile-entrada": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": ["header-submenu-column", "header-submenu-column-fijo"],
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/productos/unicas",
+              "noFollow": false,
+              "tagTitle": "Entrada",
+              "text": "Entrada"
+            }
+          }
+        ]
+      }
+    },
+    "menu#submenu-fijo-mobile-cocina": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": ["header-submenu-column", "header-submenu-column-fijo"],
+        "items": [
+          {
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-item",
+            "itemProps": {
+              "type": "internal",
+              "href": "/productos/unicas",
+              "noFollow": false,
+              "tagTitle": "Cocina",
+              "text": "Cocina"
+            }
+          }
+        ]
+      }
+    }
+  }
+  

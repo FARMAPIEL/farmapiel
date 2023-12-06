@@ -750,10 +750,10 @@ line-height: normal;
   font-size: 14px;
 }
 
-.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+/* .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
   color: #727273;
   font-size: 14px;
-}
+} */
 
 .flexRow--deals {
   background-color: #0F3E99;

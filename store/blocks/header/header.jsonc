@@ -74,9 +74,6 @@
       "blockClass": "header-envio"
     }
   },
-
-
-
   "flex-layout.row#1-desktop": {
     "children": ["telemarketing"],
     "props": {
@@ -150,7 +147,7 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
+    "children": ["menu#categories-menu"]
   },
   "logo#desktop": {
     "props": {
@@ -160,34 +157,31 @@
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#1-mobile"]
+    "children": ["sticky-layout#mobile"]
   },
-  "sticky-layout#1-mobile": {
-    "children": [
-      // "rich-text#header-envio",
-      "slider-layout#pre-header-mobile",
-      "flex-layout.row#1-mobile",
-      "search-bar"
-    ]
-  },
-  "flex-layout.row#1-mobile": {
-    "children": [
-      "drawer",
-      "logo#mobile",
-      "flex-layout.col#spacer",
-      "login#acceso",
-      "minicart.v2"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "drawer": {
-    "children": ["menu#drawer"]
-  },
+//   "sticky-layout#1-mobile": {
+//     "children": [
+//       // "rich-text#header-envio",
+//       "slider-layout#pre-header-mobile",
+//       "flex-layout.row#1-mobile",
+//       "search-bar"
+//     ]
+//   },
+//   "flex-layout.row#1-mobile": {
+//     "children": [
+//       "drawer",
+//       "logo#mobile",
+//       "flex-layout.col#spacer",
+//       "login#acceso",
+//       "minicart.v2"
+//     ],
+//     "props": {
+//       "blockClass": "main-header-mobile",
+//       "preventHorizontalStretch": true,
+//       "preserveLayoutOnMobile": true,
+//       "fullWidth": true
+//     }
+//   },
 
   "login#acceso": {
     "props": {
@@ -204,306 +198,123 @@
       "showPasswordVerificationIntoTooltip": true
     }
   },
-
-  "menu#drawer": {
+  "sticky-layout#mobile": {
     "children": [
-      "disclosure-layout#menu-cats",
-      "menu-item#header-productos",
-      "menu-item#header-acerca"
+      "flex-layout.row#mobile"
+    //   "search-bar#custom"
+    ]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "flex-layout.col#spacer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "link#mis-favoritos",
+      "minicart.v2"
+      // "category-menu#mobile",
     ],
     "props": {
-      "orientation": "vertical"
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
     }
   },
-
-
-    "disclosure-layout#menu-cats": {
-      "children": [
-        "disclosure-trigger#menu-cats",
-        "disclosure-content#menu-cats"
-      ],
-      "props": {
-        "blockClass" : "menu-cats"
-      }
-    },
-    "disclosure-trigger#menu-cats": {
-      "children": [
-        "rich-text#menu-cats"
-      ]
-    },
-    "disclosure-content#menu-cats": {
-      "children": [
-        "link#menu-c1",
-        "link#menu-c2",
-        "link#menu-c3",
-        "link#menu-c4",
-        "link#menu-c5",
-        "link#menu-c6",
-        "link#menu-c7",
-        "link#menu-c8",
-        "link#menu-c9"
-        /*,"link#menu-c10"*/
-      ],
-      "props": {
-        "blockClass": "menu-cats"
-      }
-    },
-    "rich-text#menu-cats": {
-      "props": {
-        "text": "Categorías",
-        "blockClass":"menu-cats"
-      }
-    },
-  "link#menu-c1": {
+  "link#mis-favoritos": {
     "props": {
-      "href": "/fotoprotector",
-      "blockClass": "menu-c"
-    },
-    "children": [
-      "image#menu-c1",
-      "rich-text#home-seccion2-1"
-    ]
-  },
-  "image#menu-c1": {
-    "props": {
-      "src": "/arquivos/cat1-m.png",
-      "blockClass": "menu-c"
+      "href": "/wishlist",
+      "label": " ",
+      "blockClass": "mis-favoritos"
     }
   },
-  "link#menu-c2": {
-    "props": {
-      "href": "/antioxidante",
-      "blockClass": "menu-c"
-    },
-    "children": [
-      "image#menu-c2",
-      "rich-text#home-seccion2-2"
-    ]
-  },
-  "image#menu-c2": {
-    "props": {
-      "src": "/arquivos/cat2-m.png",
-      "blockClass": "menu-c"
-    }
-  },
-  "link#menu-c3": {
-    "props": {
-      "href": "/antiedad",
-      "blockClass": "menu-c"
-    },
-    "children": [
-      "image#menu-c3",
-      "rich-text#home-seccion2-3"
-    ]
-  },
-  "image#menu-c3": {
-    "props": {
-      "src": "/arquivos/cat3-m.png",
-      "blockClass": "menu-c"
-    }
-  },
-  "link#menu-c4": {
-    "props": {
-      "href": "/antitranspirante",
-      "blockClass": "menu-c"
-    },
-    "children": [
-      "image#menu-c4",
-      "rich-text#home-seccion2-4"
-    ]
-  },
-  "image#menu-c4": {
-    "props": {
-      "src": "/arquivos/cat4-m.png",
-      "blockClass": "menu-c"
-    }
-  },
-  "link#menu-c5": {
-    "props": {
-      "href": "/anticaida",
-      "blockClass": "menu-c"
-    },
-    "children": [
-      "image#menu-c5",
-      "rich-text#home-seccion2-5"
-    ]
-  },
-  "image#menu-c5": {
-    "props": {
-      "src": "/arquivos/cat5-m.png",
-      "blockClass": "menu-c"
-    }
-  },
-  "link#menu-c6": {
-    "props": {
-      "href": "/despigmentante",
-      "blockClass": "menu-c"
-    },
-    "children": [
-      "image#menu-c6",
-      "rich-text#home-seccion2-6"
-    ]
-  },
-  "image#menu-c6": {
-    "props": {
-      "src": "/arquivos/cat6-m.png",
-      "blockClass": "menu-c"
-    }
-  },
-  "link#menu-c7": {
-    "props": {
-      "href": "/cicatrizante",
-      "blockClass": "menu-c"
-    },
-    "children": [
-      "image#menu-c7",
-      "rich-text#home-seccion2-7"
-    ]
-  },
-  "image#menu-c7": {
-    "props": {
-      "src": "/arquivos/cat3-m.png",
-      "blockClass": "menu-c"
-    }
-  },
-  "link#menu-c8": {
-    "props": {
-      "href": "/antiacne",
-      "blockClass": "menu-c"
-    },
-    "children": [
-      "image#menu-c8",
-      "rich-text#home-seccion2-8"
-    ]
-  },
-  "image#menu-c8": {
-    "props": {
-      "src": "/arquivos/cat4-m.png",
-      "blockClass": "menu-c"
-    }
-  },
-  "link#menu-c9": {
-    "props": {
-      "href": "/humectante",
-      "blockClass": "menu-c"
-    },
-    "children": [
-      "image#menu-c9",
-      "rich-text#home-seccion2-9"
-    ]
-  },
-  "image#menu-c9": {
-    "props": {
-      "src": "/arquivos/cat5-m.png",
-      "blockClass": "menu-c"
-    }
-  },
-  "link#menu-c10": {
-    "props": {
-      "href": "/recuperacion-de-piel",
-      "blockClass": "menu-c"
-    },
-    "children": [
-      "image#menu-c10",
-      "rich-text#home-seccion2-10"
-    ]
-  },
-  "image#menu-c10": {
-    "props": {
-      "src": "/arquivos/cat6-m.png",
-      "blockClass": "menu-c"
-    }
-  },
-
-
-
-
-
-  "menu-item#header-inicio": {
-    "props": {
-      "id": "menu-header-inicio",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/",
-        "noFollow": false,
-        "tagTitle": "Inicio",
-        "text": "Inicio"
-      },
-      "blockClass": "header-item"
-    }
-  },
-  "menu-item#header-categorias": {
-    "props": {
-      "id": "menu-item-header-categorias",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Categorías",
-        "text": "Categorías"
-      },
-      "blockClass": "header-item"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
-    ]
-  },
-
-
-
-
-
-
-
-
-
-  "menu-item#header-productos": {
-    "props": {
-      "id": "menu-header-productos",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/productos-especializados",
-        "noFollow": false,
-        "tagTitle": "Productos especializados",
-        "text": "Productos especializados"
-      },
-      "blockClass": "header-item"
-    }
-  },
-  "menu-item#header-acerca": {
-    "props": {
-      "id": "menu-header-acerca",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/about-us",
-        "noFollow": false,
-        "tagTitle": "Acerca de nosotros",
-        "text": "Acerca de nosotros"
-      },
-      "blockClass": "header-item"
-    }
-  },
-
-
-
   "logo#mobile": {
     "props": {
       "title": "Logo",
       "href": "/",
       "url": "/arquivos/header_logo.png",
       "blockClass": "logo_mobile"
+    }
+  },
+  "drawer": {
+    "props": {
+      "slideDirection": "leftToRight",
+      "blockClass": "drawer-mobile"
+    },
+    "children": [
+      // "image#home-whap-sticky-icon",
+      "logo#mobile",
+      "vtex.menu@2.x:menu#drawer",
+    //   "login#mobile",
+      "drawer-close-button"
+    ]
+  },
+  "vtex.menu@2.x:menu#drawer": {
+    "children": [
+      "disclosure-layout#submenu-marcas",
+    //   "disclosure-layout#submenu-productos",
+    //   "menu-item#especializados",
+    //   "menu-item#acerca"
+      "disclosure-layout#submenu-especializados",
+      "disclosure-layout#submenu-acerca"
+    //   "rich-text#submenu-especializados",
+    //   "rich-text#submenu-acerca"
+    //   "disclosure-layout#submenu-pisos",
+    //   "disclosure-layout#submenu-bazhars",
+    //   "disclosure-layout#submenu-oportunidades"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // "flex-layout.row#logo-testing": {
+  //   "children": [
+  //     "image#home-whap-sticky-icon"
+  //   ],
+  //   "props": {
+  //     "blockClass": "logo-menu"
+  //   }
+  // },
+  // "image#home-whap-sticky-icon": {
+  //   "props": {
+  //     "src": "https://bazharsar.vteximg.com.br/arquivos/whappng.png",
+  //     "alt": "Volver",
+  //     "title": "Volver",
+  //     "width": "10px",
+  //     "blockClass": "pico-testing"
+  //   }
+  // },
+  "login#mobile": {
+    "props": {
+      "blockClass":"testing-menu",
+      "showIconProfile": true,
+      "emailAndPasswordTitle": "ACCESO A CLIENTES",
+      "accessCodeTitle": "ACCESO POR CÓDIGO ",
+      "emailPlaceholder": "E-mail",
+      "passwordPlaceholder": "Contraseña",
+      "optionsTitle": "Elegí una opción para loguearte",
+      "accessCodePlaceholder": "Código de acceso",
+      "iconLabel": "Mi cuenta",
+      "providerPasswordButtonLabel": "Entrar con email y contraseña"
+    }
+  },
+  "disclosure-state-indicator#header": {
+    "props": {
+      "Show": "image#icono-pico",
+      "Hide": "image#icono-pico2"
+    }
+  },
+  "image#icono-pico": {
+    "props": {
+      "src": "assets/icons/icono-pico.svg",
+      "width": 8
+    }
+  },
+  "image#icono-pico2": {
+    "props": {
+      "src": "assets/icons/icono-pico.svg",
+      "width": 8,
+      "blockClass": "icono-pico-closed"
     }
   }
 }

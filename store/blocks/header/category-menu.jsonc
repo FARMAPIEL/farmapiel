@@ -6,9 +6,9 @@
     },
     "children": [
       //"menu-item#header-inicio",
-      "menu-item#header-categorias",
-      "menu-item#header-productos",
-      "menu-item#header-acerca"
+    //   "menu-item#header-categorias",
+    //   "menu-item#header-productos",
+    //   "menu-item#header-acerca"
     ]
   },
 
@@ -48,9 +48,9 @@
   },
   "flex-layout.col#columna1": {
     "children": [
-      "link#menu-c1",
-      "link#menu-c2",
-      "link#menu-c3"
+    //   "link#menu-c1",
+    //   "link#menu-c2",
+    //   "link#menu-c3"
     ],
     "props": {
       "verticalAlign":"middle",
@@ -59,9 +59,9 @@
   },
   "flex-layout.col#columna2": {
     "children": [
-      "link#menu-c4",
-      "link#menu-c5",
-      "link#menu-c6"
+    //   "link#menu-c4",
+    //   "link#menu-c5",
+    //   "link#menu-c6"
     ],
     "props": {
       "verticalAlign":"middle",
@@ -71,9 +71,9 @@
   "flex-layout.col#columna3": {
     "children": [
       
-      "link#menu-c7",
-      "link#menu-c8",
-      "link#menu-c9"
+    //   "link#menu-c7",
+    //   "link#menu-c8",
+    //   "link#menu-c9"
      /*, "link#menu-c10"*/
     ],
     "props": {
