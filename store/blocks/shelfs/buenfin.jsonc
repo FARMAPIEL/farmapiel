@@ -248,7 +248,8 @@
     },
       "flex-layout.row#cucardas": {
         "children": [
-          "flex-layout.col#cucarda-buenfin"
+          "flex-layout.col#cucarda-buenfin",
+          "flex-layout.col#cucarda-holidays"
         //   "flex-layout.col#product-price-savings"
         ],
         "props": {
