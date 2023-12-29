@@ -1,7 +1,7 @@
 {
   "vendor": "farmapielecommx",
   "name": "farmapielecommx",
-  "version": "0.13.11",
+  "version": "0.13.12",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
